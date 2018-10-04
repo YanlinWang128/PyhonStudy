@@ -4,6 +4,9 @@
 # @File    : Python 内置函数.py
 
 
+M = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# 内置函数map()
+print(list(map(sum, M))) # [6, 15, 24] Map sum over items in M
 
 # 内置函数
 """
