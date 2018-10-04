@@ -31,7 +31,7 @@ import math
 四舍五入是基于十进制的，在二进制无法精确表示的时候是会有误差的。
 任何需要十进制运算的地方，都需要用 decimal.Decimal 取代 float：
 """
-print(round(math.sqrt(85), 3))
+print(round(math.sqrt(85), 3))  # 基本保留三位小数运算
 
 # math.fsum([x, y, z...]) 浮点数精确求和,区别于Python自带的非精度求和
 a = math.fsum([0.123, 23.4, 34, 555])
