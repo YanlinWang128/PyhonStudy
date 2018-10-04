@@ -3,7 +3,8 @@
 # @Email   : Wangyl_a@163.com
 # @File    : Python_string.py
 
-str = 'hello,world,frank'
+
+string1 = 'hello,world,frank'
 """
 字符串以Unicode编码存储,因此,字符串的英文字符和中文字符都算作1个字符
 split(sep = None, maxsplit = -1)  字符串分割,返回一个列表
@@ -16,5 +17,13 @@ oct()
 str.zfill()   字符串填充
 """
 # split(sep = None, maxsplit = -1) 默认按照空格分割字符, 可指定分割个数
-print(str.split(','))
+print(string1.split(','))
+print("-----" * 20)
 
+## integer convert to bignumber
+"""
+Python3中的整数类型会自动提供额外的精度
+    例如,可以打印 2的100000000次方
+"""
+
+print(len(str(2 ** 1000000)))  # 301030

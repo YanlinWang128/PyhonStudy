@@ -1,7 +1,7 @@
 # @Time    : 2018/9/25 22:21
 # @Author  : Yanlin Wang
 # @Email   : Wangyl_a@163.com
-# @File    : 基础语句.py
+# @File    : print_input_format.py
 
 print("hello,world")
 
