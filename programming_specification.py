@@ -35,7 +35,8 @@ print(os.path.dirname(os.path.abspath(__file__)))
 --- os.path.dirname(os.path.abspath(__file__))
     返回文件路径,不包含文件名,用于设置搜索路径,使得自定义模块能够被搜索引用
 
-
-
-
 """
+
+# 作为模块调用时不执行
+if __name__ == "__main__":
+    print("作为模块调用时候不执行")
