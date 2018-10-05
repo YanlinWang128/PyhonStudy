@@ -30,13 +30,21 @@ decimal  高精度浮点数运算用这个
 
 a = Decimal('3.141592653')  # 浮点数,'  ' a = 2.1  Decimal(str(a))
 b = Decimal('1.234567898')
+
+# 设置全局精度
 getcontext().prec = 20  # 设置精度, 保留多少位小数
 
 print(type(a * b))  # <class 'decimal.Decimal'>
 print(a * b)  # eval() arg 1 must be a string, bytes or code object
 
 d = Decimal(1) / Decimal(3)  # 整型
-print(type(d), d)
+print(type(d), d)  # <class 'decimal.Decimal'> 0.33333333333333333333
 
 result = str(d)  # to string
-print(type(result), result)
+print(type(result), result)  # <class 'str'> 0.33333333333333333333
+
+# 分数与小数
+"""
+b = Fraction('1.25')
+decimal.Decimal(str(1/3))  # 字符串输入
+"""
