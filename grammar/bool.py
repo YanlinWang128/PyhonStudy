@@ -14,4 +14,9 @@ print(True or False)  # True  Same as  1 or 0
 print(True + 4)  # 5
 
 
-# 布尔操作符  and, or
+# 布尔操作符  and, or, not
+"""
+X and Y 
+X or Y
+not X
+"""

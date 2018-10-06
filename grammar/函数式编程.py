@@ -5,7 +5,8 @@
 
 # 函数式编程
 """
-map,reduce,列表推导式
+map,reduce,列表推导式, lambda表达式
+map() 可以用来模拟for循环
 """
 # map(function, iter1, iter2...)
 list1 = [-1, -3, 8, -7, 9, -2]
@@ -15,6 +16,25 @@ L2 = list(map(lambda x: x + 1, list1))
 print(L2)
 L3 = list(map(lambda x, y: x * y, list1, list1))
 print(L3)  # [1, 9, 64, 49, 81, 4]
+
+# 基于布尔表达式的运作方式
+"""
+1. 布尔表达式 not, and, or 
+2. ((A and B) or C) 几乎可以用以用来模拟 if/else 语句
+"""
+
+# if/else 三元表达式
+# Y if X else Z  在X为真时会返回Y,否则返回Z
+# 对应 ((X and Y) or Z)
+
+
+
+
+
+
+
+
+
 
 # 命名规则
 # print([object,...][,sep=' '][,end='\n'][, file = sys.stdout])
