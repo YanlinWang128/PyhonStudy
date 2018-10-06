@@ -24,5 +24,5 @@ def random_list(start, stop, length):
 2. 集合
 3. 映射类型(字典)
 
-
 """
+# 不可变数据类型: 数字,字符串,元组
