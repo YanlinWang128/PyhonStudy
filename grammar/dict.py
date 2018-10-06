@@ -29,3 +29,15 @@ print(squares)
 ## 字典注意项 : if测试 不存在的键
 values = D['food'] if 'food' in D else 0  # D[key]
 print(values)
+
+# 字典的格式化输出
+"""
+%[(name)][flags][width][.precision]typecode
+
+flags: 左对齐(-),右对齐(+),补零(0)  ==> 宽度,用于列表显示好看
+[(字典键/值)]  ==>  %(key)s, %(value)s
+"""
+print('%s,eggs, and %+20s and %s' % (1, 'spam!', [1, 2, 3, 4]))
+
+values = {'name': 'Bob', 'age': 40}  # 目标字典
+print('name: %(name)s, age: %(age)s' % values)
