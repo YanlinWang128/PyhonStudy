@@ -14,8 +14,9 @@ List.reverse()
 print(List)
 """
 1. 列表支持: 索引,切片,类似字符串
-    List.sort()  # 默认升序排列 supported between instances of 'str' and 'int'
+    List.sort(reverse = True)  # 默认升序排列 supported between instances of 'str' and 'int'
     List.reverse() # 对列表翻转
+    List(reversed(L))# 对列表翻转
     Len(List)
     List[i], List[i][j]
 """
