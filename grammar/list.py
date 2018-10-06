@@ -66,3 +66,12 @@ S = ''.join(L)
 print(S)
 S = 'wyl'.join(L)  # 字符串中间填充拼接
 print(S)
+
+
+# list.sort 是对主体列表进行在原处的修改:返回None,而不是其修改的列表
+"""
+L.sort()
+L = L.sort()  # 错误, 会把L设为None
+L = sorted(L)  # 内建函数sorted会排序任何序列,并传回具有排序结果的新列表,而不是在原处修改,将其结果赋值给变量名
+
+"""
