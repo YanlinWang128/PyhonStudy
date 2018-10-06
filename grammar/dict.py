@@ -10,6 +10,15 @@ print(D['food'])
 
 # 无序字典有序输出
 """
+D['name'] = 'Frank',  del D['name']
+len(D)
+key/value
+Dict.keys(), list(Dict.keys()) # 键
+Dict.values(), list(Dict.values()) # 值
+Dict.items(), list(Dict.items())  # 获取键+值
+Dict.copy # 副本
+Dict.get(key, default) # 默认
+
 因为字典不是序列,他们并不包含任何可靠的从左到右的顺序,
     这意味着如果我们建立一个字典,并将它打印出来,它的键也许会与我们输入时不同的顺序出现
 
@@ -18,7 +27,7 @@ print(D['food'])
 
 """
 Ks = list(D.keys())  # keys()方法构成一个列表
-Ks.sort()
+Ks.sort()  # 默认升序
 for key in Ks:
     print(key, '=>', D[key] if key in D else 0)
 
@@ -40,4 +49,32 @@ flags: 左对齐(-),右对齐(+),补零(0)  ==> 宽度,用于列表显示好看
 print('%s,eggs, and %+20s and %s' % (1, 'spam!', [1, 2, 3, 4]))
 
 values = {'name': 'Bob', 'age': 40}  # 目标字典
+
 print('name: %(name)s, age: %(age)s' % values)
+
+# 字典, 返回字典的键/值 列表
+print(list(values.keys()))  # ['name', 'age']
+print(list(values.values()))  # ['Bob', 40]
+
+# 字典更新 update()
+"""
+update 方法类似于合并,但是它和从左到右的顺序无关,字典无序
+update 方法将字典的键和值合并到另一个字典中,盲目地覆盖相同键的值
+"""
+valuesupdate = {'age': 50, 'QQ': 1195441296}
+values.update(valuesupdate)
+print(values)  # {'name': 'Bob', 'age': 50, 'QQ': 1195441296}
+
+# pop('QQ') 从字典中删除一个键,并返回它的值
+# del D[key]
+values.pop('QQ')
+print(values)  # {'name': 'Bob', 'age': 50}
+
+# 新增/修改键
+values['QQ'] = 1195441296
+print(values)  # 添加 {'name': 'Bob', 'age': 50, 'QQ': 1195441296}
+
+# in 进行成员关系测试
+
+#
+
