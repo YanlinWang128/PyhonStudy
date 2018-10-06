@@ -56,8 +56,19 @@ print("hello"[0::2])  # 右侧不包括,  index from 0 to -1
 print("hello"[::-1])  # olleh 步长为-1 表示切片会从右往左输出, 字符串反转
 print("helloha"[5:1:-1])  # holl 步长为-1 表示切片会从右往左输出, 右侧不包括
 
-# 字符串格式化
-print('%d,eggs, and %s' % (1, 'spam!'))
+# %字符串格式化 (如无特别要求,都可以用%s,任何类型都可以转为字符串)
+"""
+Python format方法其实更强大,后续再学习
+
+%[(name)][flags][width][.precision]typecode
+
+flags: 左对齐(-),右对齐(+),补零(0)  ==> 宽度,用于列表显示好看
+[(字典键/值)]  ==>  %(key)s, %(value)s
+"""
+print('%s,eggs, and %+20s and %s' % (1, 'spam!', [1, 2, 3, 4]))
+
+values = {'name': 'Bob', 'age': 40}  # 目标字典
+print('name: %(name)s, age: %(age)s' % values)  # 字典的格式化输出
 
 # ASCII码与值 ord(), chr()
 print(ord('A'), chr(65))  # 65
