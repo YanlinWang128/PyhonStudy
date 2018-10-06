@@ -58,3 +58,10 @@ print({ord(x) for x in 'Frank'})
 print({x: ord(x) for x in 'Frank'})
 
 # 对于生成器,还需要多多学习
+
+# join 字符串方法join(), 将列表合并成一个字符串
+L = ['a', 'b', 'c']  # 字符列表,可以合并成字符串, 数字列表不可以
+S = ''.join(L)
+print(S)
+S = 'wyl'.join(L)  # 字符串中间填充拼接
+print(S)
