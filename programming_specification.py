@@ -6,6 +6,8 @@
 
 import os, sys
 
+# python  斜杠目录
+
 # 添加自建项目进入文件搜索,使可导入自定义模块
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -40,3 +42,29 @@ print(os.path.dirname(os.path.abspath(__file__)))
 # 作为模块调用时不执行
 if __name__ == "__main__":
     print("作为模块调用时候不执行")
+
+
+# 命名规范
+"""
+函数名:    一律小写，如有多个单词，用下划线隔开
+变量名:    小写, 如有多个单词，用下划线隔开
+
+类名使用驼峰(CamelCase)命名风格，首字母大写，私有类可用一个下划线开头
+
+"""
+
+
+
+# 对文件的操作规范
+"""
+不许覆盖原始文件,另存备份
+"""
+
+# 代码规范
+"""
+不许硬编码, 参数外设
+__file__, len 
+
+# 获取上级目录, 转换目录斜杠
+output_path = os.path.abspath(os.path.join(dir_path, "..")).replace('\\', '/')
+"""
