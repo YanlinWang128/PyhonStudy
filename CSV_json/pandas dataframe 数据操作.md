@@ -8,3 +8,6 @@ df2.loc[i, 'deviation'] = 1
 ```
 df2 = df2[df2['deviation'] != 1]
 ```
+
+at方法是专门用于获取某个值的：
+df.at[index,'begin']
