@@ -1,7 +1,7 @@
 # @Time    : 2018/10/8 17:07
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : 偏差过滤.py
+# @File    : pandas偏差过滤.py
 
 import pandas as pd
 import datetime as dt
