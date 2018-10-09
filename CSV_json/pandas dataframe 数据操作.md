@@ -10,4 +10,20 @@ df2 = df2[df2['deviation'] != 1]
 ```
 
 at方法是专门用于获取某个值的：
+```
 df.at[index,'begin']
+df_data.loc[count, 'end'] = df2.at[end_index, '时间']
+```
+
+
+选择多列数据
+```
+df.loc[:, ['begin','end']]
+```
+
+dataframe 的切片操作，切片得到的是行数据
+```
+df[1:3] 选取索引1,2行的数据,行数据
+df['begin'] 列数据选择
+df.loc[:,['A', 'B']]
+```

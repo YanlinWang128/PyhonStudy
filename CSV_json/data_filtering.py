@@ -1,11 +1,11 @@
 # @Time    : 2018/10/8 11:36
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : data_filtering.py
+# @File    : data_filtering 按功率.py
 import os
 import pandas as pd
 
-
+# 筛选功率 满负荷330正负8
 def csv_data_filtering(input_file, output_path):
     """
     对数据进行筛选,不满足条件的文件直接删除
