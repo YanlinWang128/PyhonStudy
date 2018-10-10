@@ -1,7 +1,7 @@
 # @Time    : 2018/10/8 8:35
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : CSV_json process.py
+# @File    : Pandas 数据处理项目 process.py
 
 import csv
 import pandas as pd
