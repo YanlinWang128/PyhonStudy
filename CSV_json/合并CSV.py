@@ -29,8 +29,8 @@ def csv_merge(path, save_file_name):
 
 
 if __name__ == "__main__":
-    save_file_name = r'all.csv'  # 合并后要保存的文件名  
-    path = r'D:/test/'
+    save_file_name = r'all08.csv'  # 合并后要保存的文件名  
+    path = r'F:/HistoryData/08new/'
     csv_merge(path, save_file_name)
 
 
