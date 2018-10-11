@@ -18,7 +18,8 @@ def blank_detect(df2):
 
 
 if __name__ == "__main__":
-    input_file = r'F:/HistoryData/08newburnerangle/08new_after_burnerangle.csv'
+    input_file = r'F:/HistoryData/09_30.csv'
     df2 = pd.read_csv(input_file, header=0)
+    # 路径不要中文
     #print(df2[df2.isnull().values == True])
     blank_detect(df2)
