@@ -8,8 +8,8 @@ import datetime as dt
 
 # input_file = r'F:/HistoryData/08newdeviation/08new_after_deviation.csv'
 # output_file = r'F:/HistoryData/08newdeviation/08new_after_deviation1200.csv'
-input_file = r'F:/HistoryData/all.csv'
-output_file = r'F:/HistoryData/all1200.csv'
+input_file = r'F:/HistoryData/all08.csv'
+output_file = r'F:/HistoryData/08烟气挡板后.csv'
 df2 = pd.read_csv(input_file, header=0)
 
 date = df2['date']
