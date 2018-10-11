@@ -4,6 +4,8 @@
     df2.drop(['deviation'], inplace=True, axis=1)
     # 打印有 空值的列
     #print(df2[df2.isnull().values == True])
+    格式化输出
+    .to_csv(r'F:/HistoryData/08时间对/{:0>3d}.csv'.format(count), index=False)
 
 ```
 if (abs(df2['UNIT2:THRPRESS'][i] - sequence_mean) > deviation):

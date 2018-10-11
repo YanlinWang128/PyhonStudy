@@ -5,6 +5,7 @@
 import os
 import pandas as pd
 import datetime as dt
+import re
 
 
 # 筛选功率 满负荷330正负8
@@ -52,7 +53,6 @@ def deviation_filtering(df2, deviation):
     :param deviation: 偏差值
     :return: 处理完毕的dataframe
     """
-
 
     # 燃烧器摆角筛选
     df2 = df2[(df2['HHL517CG'] < 10) & (df2['HHL517CG'] > -10)].reset_index(drop=True)
@@ -135,8 +135,9 @@ def csv_merge(path, save_file_name):
     :param save_file_name: 合并完成后, 保存的文件名
     :return: 
     """
-    # 将该文件夹下的所有文件名存入一个列表  
-    file_list = os.listdir(path)
+    # 将该文件夹下的所有文件名存入一个列表
+
+    file_list = sorted(os.listdir(path), key=lambda i: int((re.findall('p(\d+).csv', i)[0])))
     # 读取第一个CSV文件并包含表头  
     df = pd.read_csv(os.path.join(path, file_list[0]))  # 带中文的话, 编码格式改成gbk
     # 将读取的第一个CSV文件写入合并后的文件保存  
@@ -178,5 +179,5 @@ if __name__ == "__main__":
     input_file = r'F:/HistoryData/08newprocess/all08.csv'
     df2 = pd.read_csv(input_file, header=0)
     df2 = deviation_filtering(df2, 0.35)
-    output = r'F:/HistoryData/all.csv'
+    output = r'F:/HistoryData/all08.csv'
     df2.to_csv(output, index=False)

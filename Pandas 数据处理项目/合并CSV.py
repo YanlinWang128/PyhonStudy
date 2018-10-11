@@ -6,6 +6,7 @@
 
 import pandas as pd
 import os
+import re
 
 
 def csv_merge(path, save_file_name):
@@ -16,23 +17,26 @@ def csv_merge(path, save_file_name):
     :return: 
     """
     # 将该文件夹下的所有文件名存入一个列表  
-    file_list = os.listdir(path)
+
+    #print(file_list)
+    file_list = sorted(os.listdir(path),key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
+    print(file_list, type(file_list))
     # 读取第一个CSV文件并包含表头  
-    df = pd.read_csv(os.path.join(path, file_list[0]), encoding='gbk')  # 带中文的话, 编码格式改成gbk
+    df = pd.read_csv(os.path.join(path, file_list[0]))  # 带中文的话, 编码格式改成gbk
     # 将读取的第一个CSV文件写入合并后的文件保存  
-    df.to_csv(os.path.join(path, save_file_name), encoding="gbk", index=False)
+    df.to_csv(os.path.join(path, save_file_name), index=False)
 
     # 循环遍历列表中各个CSV文件名，并追加到合并后的文件  
     for i in range(1, len(file_list)):
-        df = pd.read_csv(os.path.join(path, file_list[i]), encoding='gbk')
-        df.to_csv(os.path.join(path, save_file_name), encoding="gbk", index=False, header=False, mode='a+')
+        print(i)
+        df = pd.read_csv(os.path.join(path, file_list[i]))
+        df.to_csv(os.path.join(path, save_file_name), index=False, header=False, mode='a+')
 
 
 if __name__ == "__main__":
-    save_file_name = r'all08.csv'  # 合并后要保存的文件名  
-    path = r'F:/HistoryData/08new/'
+    save_file_name = r'all09.csv'  # 合并后要保存的文件名  
+    path = r'F:/HistoryData/09newprocess/'
     csv_merge(path, save_file_name)
-
 
 """
 # for filename in os.listdir(path):   # 获取绝对路径
