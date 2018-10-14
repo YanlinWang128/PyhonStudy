@@ -7,6 +7,9 @@
     格式化输出
     .to_csv(r'F:/HistoryData/08时间对/{:0>3d}.csv'.format(count), index=False)
 
+
+    # 创建一个空的dataframe,用来存储数据
+    df_data = pd.DataFrame(columns=["begin", "end"])
 ```
 if (abs(df2['UNIT2:THRPRESS'][i] - sequence_mean) > deviation):
 df2.loc[i, 'deviation'] = 1 
@@ -34,3 +37,15 @@ df[1:3] 选取索引1,2行的数据,行数据
 df['begin'] 列数据选择
 df.loc[:,['A', 'B']]
 ```
+
+
+## dataframe 某列数据转换为列表
+df2['begin'].tolist()
+
+## dataframe标题  tolist()
+print(df2.columns.values.tolist()[0])
+
+
+#numpy 矩阵常用操作
+
+
