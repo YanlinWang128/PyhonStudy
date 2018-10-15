@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19ed2566-c49f-4496-8a6d-6c7052ccf0e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/excel/Pandas excel.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/excel/pandas_excel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/pandas/8月方差.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/pandas/9月方差.csv" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/方差分析.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/1功率筛选.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/1功率筛选.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/2pandas偏差过滤.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/2pandas偏差过滤.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/CSV_json process.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/CSV_json process.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/csv_data_filtering.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/csv_data_filtering.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/data_filtering.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/f.txt" afterPath="$PROJECT_DIR$/数据处理项目/pandas/f.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/json/a.json" afterPath="$PROJECT_DIR$/数据处理项目/json/a.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/json/json.md" afterPath="$PROJECT_DIR$/数据处理项目/json/json.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/json/jsonfile.py" afterPath="$PROJECT_DIR$/数据处理项目/json/jsonfile.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/json/practice.py" afterPath="$PROJECT_DIR$/数据处理项目/json/practice.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/pandas dataframe 数据操作.md" afterPath="$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/保留长度为1200s以上的段.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/保留长度为1200s以上的段.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/删除属性列_空列名的处理.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/删除属性列_空列名的处理.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/删除满足条件的列.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/删除满足条件的列.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/合并CSV.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/合并CSV.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/在单个文件后面添加_reduce差值列.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/在单个文件后面添加_reduce差值列.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/工况边界导出为CSV.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/工况边界导出为CSV.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/数据预处理/Myfunction.py" afterPath="$PROJECT_DIR$/数据处理项目/数据预处理/Myfunction.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/数据预处理/空白值处理.md" afterPath="$PROJECT_DIR$/数据处理项目/数据预处理/空白值处理.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/文件写类型.md" afterPath="$PROJECT_DIR$/数据处理项目/pandas/文件写类型.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/检测数据是否包含空值.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/检测数据是否包含空值.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/每段数据的方差分析.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/每段数据的方差分析.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/燃烧器摆角筛选.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/燃烧器摆角筛选.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/筛选每个工况数据为单个文件.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/筛选每个工况数据为单个文件.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/统计某列各个值出现的频次.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/统计某列各个值出现的频次.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/计算指定长度边界持续时间.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/计算指定长度边界持续时间.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/调试.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/调试.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pandas 数据处理项目/错误处理.md" afterPath="$PROJECT_DIR$/数据处理项目/错误处理.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/numpy/numpy 矩阵.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py" afterPath="$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md" afterPath="$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,29 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyhonStudy$numpy_test.coverage" NAME="numpy_test Coverage Results" MODIFIED="1539525477547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$numpy_test.coverage" NAME="numpy_test Coverage Results" MODIFIED="1539594960773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$.coverage" NAME="测试 Coverage Results" MODIFIED="1539588062664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Pandas excel.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据处理项目/excel/Pandas excel.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-77">
-                <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="numpy_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="-1039">
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="e#114#123#0" expanded="true" />
               </folding>
@@ -76,12 +33,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pandas dataframe 数据操作.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="递归.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammar/递归.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pandas dataframe 数据操作.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1312">
-                <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+              <first_editor relative-caret-position="443">
+                <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -89,11 +56,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="工况边界导出为CSV.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/工况边界导出为CSV.py">
+      <file leaf-file-name="numpy 矩阵.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/numpy 矩阵.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="6432">
+                <caret line="201" column="3" lean-forward="false" selection-start-line="201" selection-start-column="3" selection-end-line="201" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="错误处理.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/错误处理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-288">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="测试.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/测试.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1024">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="640">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,6 +101,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>20</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -117,8 +115,14 @@
         <option value="$PROJECT_DIR$/Pandas 数据处理项目/pandas dataframe 数据操作.md" />
         <option value="$PROJECT_DIR$/Pandas 数据处理项目/excel/Pandas excel.md" />
         <option value="$PROJECT_DIR$/Pandas 数据处理项目/excel/pandas_excel.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/matplotlib/绘制曲线.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/matplotlib/锯齿波和三角波.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/matplotlib/绘制方波.py" />
+        <option value="$PROJECT_DIR$/grammar/递归.py" />
         <option value="$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/numpy/测试.py" />
         <option value="$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md" />
+        <option value="$PROJECT_DIR$/数据处理项目/numpy/numpy 矩阵.md" />
       </list>
     </option>
   </component>
@@ -216,8 +220,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,6 +260,82 @@
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="绘制曲线" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyhonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Pythoncode\PyhonStudy\数据处理项目\matplotlib\绘制利萨茹曲线.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="锯齿波和三角波" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyhonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/matplotlib/锯齿波和三角波.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="绘制方波" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyhonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/matplotlib/绘制方波.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyhonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/numpy/测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,12 +489,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.numpy_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.绘制曲线" />
+      <item index="2" class="java.lang.String" itemvalue="Python.锯齿波和三角波" />
+      <item index="3" class="java.lang.String" itemvalue="Python.绘制方波" />
+      <item index="4" class="java.lang.String" itemvalue="Python.测试" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.numpy_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.测试" />
+        <item index="2" class="java.lang.String" itemvalue="Python.绘制方波" />
+        <item index="3" class="java.lang.String" itemvalue="Python.锯齿波和三角波" />
+        <item index="4" class="java.lang.String" itemvalue="Python.绘制曲线" />
       </list>
     </recent_temporary>
   </component>
@@ -435,24 +523,24 @@
     <frame x="-1289" y="-1" width="1298" height="992" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23039216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21323529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13301088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -469,6 +557,76 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/数据处理项目/excel/Pandas excel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="640">
+            <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1856">
+            <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/matplotlib/绘制利萨茹曲线.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#110#128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/matplotlib/锯齿波和三角波.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/matplotlib/绘制方波.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#107#125#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/工况边界导出为CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="34" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#114#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据处理项目/excel/Pandas excel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -503,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,32 +676,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/方差分析.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/方差分析.csv" />
     <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/1功率筛选.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="17" column="59" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="e#119#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据处理项目/excel/Pandas excel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-77">
+          <first_editor relative-caret-position="640">
             <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             <folding />
           </first_editor>
@@ -556,25 +702,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/matplotlib/绘制利萨茹曲线.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#110#128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/matplotlib/锯齿波和三角波.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/matplotlib/绘制方波.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#107#125#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/错误处理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-288">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar/递归.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/numpy_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="-1039">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="e#114#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1312">
-            <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <first_editor relative-caret-position="443">
+            <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/numpy 矩阵.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="6432">
+            <caret line="201" column="3" lean-forward="false" selection-start-line="201" selection-start-column="3" selection-end-line="201" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
