@@ -46,6 +46,3 @@ df2['begin'].tolist()
 print(df2.columns.values.tolist()[0])
 
 
-#numpy 矩阵常用操作
-
-
