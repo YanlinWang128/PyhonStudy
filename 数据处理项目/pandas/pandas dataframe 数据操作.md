@@ -46,3 +46,6 @@ df2['begin'].tolist()
 print(df2.columns.values.tolist()[0])
 
 
+## 获取DataFrame行数
+我们发现速度最快的是len(df.index) 方法， 其次是len(df) 
+最慢的是df['col1'].count(),因为该函数需要去除NaN
