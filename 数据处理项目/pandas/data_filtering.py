@@ -23,7 +23,7 @@ def csv_data_filtering(input_file, output_path):
     df2 = del_attribution_columns(df2)
 
     # 根据功率筛选, 只需要 满功率330+_8
-    df2 = df2[(df2['JT66801A'] <= 338) & (df2['JT66801A'] >= 322)]
+    df2 = df2[(df2['JT66801A'] <= 400) & (df2['JT66801A'] >= 300)]
 
     # 检测空白值并填充,向上填充数据
     df2.fillna(method='ffill', inplace=True)
@@ -162,9 +162,9 @@ def blank_detect(df2):
 
 
 if __name__ == "__main__":
-    dir_path = r'F:/HistoryData/08new/'
-    output_path = dir_path[:-1] + 'process/'
-    save_file_name = r'all08.csv'  # 合并后要保存的文件名
+    dir_path = r'F:/HistoryData/09new/'
+    output_path = dir_path[:-1] + 'process_300_370/'
+    save_file_name = r'all09.csv'  # 合并后要保存的文件名
 
     if (not os.path.exists(output_path)):
         os.mkdir(output_path)
@@ -176,8 +176,8 @@ if __name__ == "__main__":
 
     # 对目标文件夹内的所有数据进行合并
     csv_merge(output_path, save_file_name)
-    input_file = r'F:/HistoryData/08newprocess/all08.csv'
+    input_file = r'F:/HistoryData/09newprocess_300_370/all09.csv'
     df2 = pd.read_csv(input_file, header=0)
     df2 = deviation_filtering(df2, 0.35)
-    output = r'F:/HistoryData/all08.csv'
+    output = r'F:/HistoryData/09newprocess_300_370/all09_300_370.csv'
     df2.to_csv(output, index=False)

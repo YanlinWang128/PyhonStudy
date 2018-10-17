@@ -1,7 +1,7 @@
 # @Time    : 2018/10/14 21:48
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : numpy_test.py
+# @File    : 递归求解.py
 
 
 import os
@@ -59,7 +59,7 @@ def K(k):
 
 def p(k):
     if k == 19:
-        return np.full((25, 25), 10 ** 8)
+        return np.eye(25) * (10 ** 8)
     if k > 19:
         temp = np.eye(25) - K(k).dot(phi_1(k))
         return temp.dot(p(k - 1))

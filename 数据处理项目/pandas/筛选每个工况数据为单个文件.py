@@ -6,9 +6,12 @@
 
 import pandas as pd
 import datetime as dt
+import os
 
-input_file = r'F:/HistoryData/08_35.csv'
-
+input_file = r'F:/HistoryData/all09_1200.csv'
+output_path = r'F:/HistoryData/只按功率筛选09_300_up时间对/'
+if (not os.path.exists(output_path)):
+    os.mkdir(output_path)
 # 数据读取,dataframe格式
 df2 = pd.read_csv(input_file, header=0)
 
@@ -52,8 +55,8 @@ if (len(date) > 0):
             time_all += periods
             for i in range(begin_index, end_index + 1):
                 df2.loc[i, 'deviation'] = 1
-            df2[df2['deviation'] == 1].to_csv(r'F:/HistoryData/08时间对/{:0>3d}.csv'.format(count), index=False)
+            df2[df2['deviation'] == 1].to_csv(r'F:/HistoryData/只按功率筛选09_300_up时间对/{:0>3d}.csv'.format(count), index=False)
             df2.drop(['deviation'], inplace=True, axis=1)
     print('1200的段数: ', count, time_all, time_all / 3600)
-    df_data.to_csv(r'F:/HistoryData/08时间对/时间对_8月.csv', index=False)  # 筛选数据后导出到源文件
+    # df_data.to_csv(r'F:/HistoryData/09newprocess_300_370/时间对_9月.csv', index=False)  # 筛选数据后导出到源文件
 
