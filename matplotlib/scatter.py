@@ -18,7 +18,7 @@ weight = [57, 62, 47, 67, 59, 49, 54, 63, 66, 80]
 # 注意:一般都在ax中设置,不在plot中设置参数
 ax = plt.subplot(111)
 
-# 设置x, y轴刻度
+# 设置x, y轴坐标轴
 
 # 设置x, y轴刻度显示值, x的倍数
 ax.xaxis.set_major_locator(MultipleLocator(8))
@@ -26,12 +26,25 @@ ax.xaxis.set_minor_locator(MultipleLocator(4))
 ax.yaxis.set_major_locator(MultipleLocator(10))
 ax.yaxis.set_minor_locator(MultipleLocator(5))
 # 设置刻度值显示格式
-ax.xaxis.set_major_formatter(FormatStrFormatter('%1.1f'))
+ax.xaxis.set_major_formatter(FormatStrFormatter('%1.0f'))
 ax.yaxis.set_major_formatter(FormatStrFormatter('%1.1f'))
 
 # 自定义显示网格(major, minor)
 ax.xaxis.grid(True, which='major')  # x坐标轴的网格使用主刻度
 ax.yaxis.grid(True, which='minor')  # y坐标轴的网格使用次刻度
+
+# 自己强制规定坐标轴起始点
+# plt.xlim(0, 200)
+# plt.ylim(0, 100)
+
+# 忽略xticks, yticks
+# plt.xticks(())
+# plt.yticks(())
+
+# 自定义边框是否显示
+ax.spines['right'].set_color('none')  # 边框属性设置为none 不显示
+ax.spines['top'].set_color('none')
+
 # 散点图方法
 plt.scatter(height, weight, s=80, c='r', marker='*')
 
@@ -40,15 +53,20 @@ plt.scatter(height, weight, s=80, c='r', marker='*')
 #     label.set_rotation(30)
 #     label.set_horizontalalignment('right')
 
-# plt.xlabel 设置x, y轴标签
-plt.xlabel('height(cm)')
+# plt.xlabel 设置x, y轴标签, 可以设置颜色 默认k, 黑色
+plt.xlabel('height(cm)', color='b')
 plt.ylabel('weight(kg)')
 
 # plt.title  设置图像标题
 plt.title('Test')
 
+# plt.legend(loc='best')  # 显示在最好的位置
+
 # 系统显示网格, 不要与自定义网格混合使用
 # plt.grid()
+
+# 保存图片
+# plt.savefig("D:/demo.png")
 
 # 显示图片
 plt.show()
