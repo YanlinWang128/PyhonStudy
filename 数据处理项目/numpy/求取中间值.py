@@ -109,5 +109,5 @@ for k in range(20, 1001):
     K = p.dot(phi_1(k).T) * ((1 + phi_1(k).dot(p).dot(phi_1(k).T)) ** -1)
     # print(k, K)
     theta = theta + K * (y_output[k - 1] - phi_1(k).dot(theta))
-    print(k, theta.T)
+    print(k-19, theta.T)
     p = (np.eye(25) - K.dot(phi_1(k))).dot(p)
