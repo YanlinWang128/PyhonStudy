@@ -46,6 +46,7 @@ ax.spines['right'].set_color('none')  # 边框属性设置为none 不显示
 ax.spines['top'].set_color('none')
 
 # 散点图方法
+# plt.scatter(x,y,color='red',marker='x',markersize='30')
 plt.scatter(height, weight, s=80, c='r', marker='*')
 
 # x轴字符串旋转(日期坐标斜着显示)
