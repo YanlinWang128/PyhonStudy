@@ -11,6 +11,8 @@ f.close()
 # 写文件a:追加写模式
 with open('D:/a.txt', 'a') as f:
     f.write('Hello, world!\nhello, file\n')
+    f.write('haha')
+    f.write('ahaha') # hahaahaha, 注意没有换行
 
 # 读文件f.read([count]) # 读整个文件,或者指定个字符
 # f.readlines(),读出所有行，也就是读出整个文件的信息
@@ -35,6 +37,10 @@ with open('D:/a.txt', 'r') as file1:
     # 配置文件用用readlines() 按行读取最方便
     for line in file1.readlines():
         print(line.strip())  # 把末尾的'\n'删掉
+
+    # 写入列表中的字符串
+    # f.writelines(list)
+    # 把list中的字符串一行一行地写入文件，是连续写入文件，没有换行。
 """
 读写模式(默认是r):
 r: 读模式,文件不存在,报错
@@ -48,6 +54,7 @@ a: 追加写模式,文件不存在则创建, 文件存在则追加, 不可读
 要读取非UTF-8编码的文本文件，需要给open()函数传入encoding参数
 f = open('/Users/michael/gbk.txt', 'r', encoding='gbk')
 print(f.read()) # '测试'
+# print(f.read().decode('utf-8'))
 
 遇到有些编码不规范的文件，你可能会遇到UnicodeDecodeError
 因为在文本文件中可能夹杂了一些非法编码的字符。
@@ -59,6 +66,8 @@ f = open('/Users/michael/gbk.txt', 'r', encoding='gbk', errors='ignore')
 由于文件读写时都有可能产生IOError
 一旦出错，后面的f.close()就不会调用。
 为了保证无论是否出错都能正确地关闭文件
+
+最佳实践:
 Python引入了with语句来自动帮我们调用close()方法,一种保险方法：
     with open('/path/to/file', 'r') as f:
         print(f.read())
