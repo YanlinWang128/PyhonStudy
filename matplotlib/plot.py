@@ -33,6 +33,9 @@ plt.scatter(x0, y0, s=50, color='b')
 # 绘制下划线, 两点之间的连线(x0, y0) -> (x0, -2)
 plt.plot([x0, x0], [y0, -2], 'k--', lw=2.5)  # 连接(x0,y0)(x0,0) k表示黑色 lw=2.5表示线粗细
 
+# 如果x坐标不重要, 则用默认索引,x可以省略
+# plt.plot(y, label='square line')
+
 # 画一条
 # xycoords='data'是基于数据的值来选位置
 # xytext=(+30,-30), textcoords='offset points'对于标注位置描述和xy偏差值
@@ -49,7 +52,8 @@ plt.text(-0.2, 2, r'$This\ is\ the\ some\ text. \mu\ \sigma_i\ \alpha_t$',
 
 # 显示图例 legend
 plt.legend(loc='best')  # 显示在最好的位置
-
+plt.title('Test')
+# ax.set_title('title test',fontsize=12,color='r')
 # 保存图片
 # plt.savefig("D:/demo.png")
 plt.show()  # 显示图
