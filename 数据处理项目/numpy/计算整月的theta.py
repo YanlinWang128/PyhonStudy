@@ -11,7 +11,7 @@ import pandas as pd
 p = np.eye(25) * (10 ** 8)  # 每个文件重置一次
 theta = np.zeros((25, 1))
 input_path = r'C:/Users/Frank/Desktop/08time_series/'
-d1 = d2 = d3 = d4 = 50
+d1 = d2 = d3 = d4 = 60
 
 for info in os.listdir(input_path):
     domain = os.path.abspath(input_path)  # 获取文件夹的路径

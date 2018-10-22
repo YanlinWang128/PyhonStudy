@@ -1,7 +1,7 @@
 # @Time    : 2018/10/19 10:14
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : y初值计算.py
+# @File    : y预测值计算.py
 
 
 import os
@@ -9,12 +9,14 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
+import math
 
 # import sys
 # # 修改 递归深度,指标不治本,TODO
 # sys.setrecursionlimit(1000000) #例如这里设置为一百万
 # 最原始的数据打开有中文,按照gbk打开
 input_file = 'C:/Users/Frank/Desktop/08time_series/002.csv'
+
 df2 = pd.read_csv(input_file, header=0)
 print(df2.columns.values.tolist())
 y_output = df2['T12A041A'].tolist()
@@ -25,7 +27,7 @@ u3_difference = df2['u3_difference'].tolist()
 u4_difference = df2['u4_difference'].tolist()
 # 新建指定尺寸,全为 10**8 值得列表np.full(tuple(x, y), value)
 # p = np.full((25, 25), 10 ** 8)
-d1 = d2 = d3 = d4 = 50
+d1 = d2 = d3 = d4 = 60
 
 p = np.eye(25) * (10 ** 8)
 # print(p, type(p))
@@ -33,8 +35,7 @@ p = np.eye(25) * (10 ** 8)
 #          0.00390873, 0.31140836, 0.08590223, 0.18611989, -0.25154623, 0.26859639, 0.08872846, 0.04026616, 0.01721728,
 #          0.01538795, -0.00243144, 0.01539683, -0.01631048, 0.00823702, -0.07188604, 0.04221205]
 
-theta = [-0.9748429914228138, -0.1650253952276467, -0.042912146314012724, 0.06119940128124879, 0.12157679933256613, 0.002554081269759339, -0.003930253729481999, 0.0014366032523804098, 0.0020351638182062853, 0.0020128279519897535, 0.08945722524889874, -0.11603507316774436, -0.04280358290323309, 0.28102565643703487, 0.032144141474174076, -0.014769800042706824, -0.017724829219940855, 0.06518450295880959, -0.048133739658206186, -0.016418386377993765, -0.03264761788850882, 0.0042829404612441425, 0.0559101521910739, -0.0012131419891968313, 0.07239573833478025]
-
+theta = [-0.9130166305850802, -0.16366567946942107, -0.08301533388572699, 0.06870030696574138, 0.0909940945319406, -0.0012545512051814628, 0.0014544399132686338, 0.0017666228809133226, 0.002020066524392353, -0.0037471861689967077, 0.11211277943474644, 0.01730450197080619, 0.057543236477990964, 0.17010521511462975, -0.18566320910540854, 0.03977242725122014, 0.04114835281539401, -0.02288171253603298, -0.018669013812583794, 0.04142331514598825, -0.0370400250168526, 0.020587779875055206, 0.052806452669436, 0.07321127940575609, -0.005193168334853946]
 # print(theta)
 
 
@@ -76,8 +77,17 @@ for item in range(start_item, end_item):
 print(y)
 
 print(len(y[5:end_item]), y[5:end_item])
-
 print(len(y_output[start_item - 1:end_item - 1]), y_output[start_item - 1:end_item - 1])
+
+# 计算 误差(均方误差)
+#  c = [a[i] - b[i] for i in range(len(a))]
+# sum([(y-m*x -b)**2 for x,y in zip(X,Y)])/len(X)
+predict_value = y_output[start_item - 1:end_item - 1]
+primary_value =  y[5:end_item]
+error_value = math.sqrt(sum([(y-x)**2 for x,y in zip(predict_value,primary_value)])/len(predict_value))
+
+print(error_value)
+
 
 x = np.linspace(1, end_item - start_item, end_item - start_item)
 print(x)

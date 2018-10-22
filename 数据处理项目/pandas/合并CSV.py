@@ -19,7 +19,8 @@ def csv_merge(path, save_file_name):
     # 将该文件夹下的所有文件名存入一个列表  
 
     #print(file_list)
-    file_list = sorted(os.listdir(path),key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
+    # file_list = sorted(os.listdir(path),key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
+    file_list = os.listdir(path)
     print(file_list, type(file_list))
     # 读取第一个CSV文件并包含表头  
     df = pd.read_csv(os.path.join(path, file_list[0]))  # 带中文的话, 编码格式改成gbk
@@ -34,8 +35,9 @@ def csv_merge(path, save_file_name):
 
 
 if __name__ == "__main__":
-    save_file_name = r'all09.csv'  # 合并后要保存的文件名  
-    path = r'F:/HistoryData/09newprocess/'
+    save_file_name = r'all08_difference.csv'  # 合并后要保存的文件名  
+    # path = r'F:/HistoryData/09newprocess/'
+    path = r'C:/Users/Frank/Desktop/08time_series/'
     csv_merge(path, save_file_name)
 
 """
