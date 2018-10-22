@@ -5,6 +5,10 @@
 
 import os
 
+# Python列表推导式后面加 if 判断
+# count = len([x for x in y if x >= -step[i] or x <= step[i]])
+
+
 # 列表推导式,快速求所需列表,方便快速
 print([x * x for x in range(1, 11)])
 
@@ -22,4 +26,3 @@ print([k + '=' + v for k, v in d.items()])
 # 判断list元素是否为字符串, list中所有的字符串变成小写,
 L = ['Hello', 'World', 'IBM', 'Apple', 19]
 print([s.lower() for s in L if isinstance(s, str)])
-
