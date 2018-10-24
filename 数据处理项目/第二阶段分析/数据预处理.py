@@ -257,11 +257,11 @@ def main():
     input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
     df2 = pd.read_csv(input_file, header=0)
     print(len(df2.index))
-    y = df2['u1_difference'].tolist()
+    y = df2['u4_difference'].tolist()
     # x = np.linspace(1, len(y), len(y))
     analysis_list = [0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1,1.2,1.5]
     column_analysis(y, analysis_list)
-    # plot_difference_value(y, 'u1_difference')
+    plot_difference_value(y, 'u4_difference')
 
 
 def time_break_difference_to_0():
@@ -270,7 +270,7 @@ def time_break_difference_to_0():
     print(len(df2.index))
     for i in range(1, len(df2.index)-1):
         if pd.Timestamp(df2.date[i]) - pd.Timestamp(df2.date[i - 1]) != dt.timedelta(seconds=1):
-            df2.loc[i - 1, 'u1_difference'] = 0
+            df2.loc[i - 1, 'u4_difference'] = 0
     df2.to_csv(input_file, index=False)
 
 
@@ -279,8 +279,16 @@ if __name__ == "__main__":
     # pass
     # value_index_find()
     # plot_column()
-    # time_break_difference_to_0()
-    # main()
+
+    # u4_difference 置0,绘图
+    time_break_difference_to_0()
+    main()
     # caculated()
-    path = r'C:/Users/Frank/Desktop/09time_series/'
-    process_add_difference(path)
+    # path = r'C:/Users/Frank/Desktop/09time_series/'
+    # process_add_difference(path)
+"""
+u1: 0.5
+一个采样周期输入的变化量大于0.1
+u4: 0.1
+"""
+

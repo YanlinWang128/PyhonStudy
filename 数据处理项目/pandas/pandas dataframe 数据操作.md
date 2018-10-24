@@ -1,3 +1,17 @@
+# 两行相减(隔行相减) -- shift函数的使用
+df.p['xx_1'] = df.p["xx"].shift(1) # 向下移动一位
+df.p['xx'] - df.p["xx_1"]
+
+
+# 删除某列
+df2 = df.drop(['MonthlyIncome'],axis=1)
+
+
+# dataframe 更改列名
+df.rename(columns  = {'ID':'id', 'code':'编码'})
+或者直接全部替换
+df.columns = ['ID','hello']
+
 # 对于匹配好工况段
 现阶段的思路:确定好边界索引,遍历每个工况段,求偏差,不满足条件的标记
 
@@ -68,13 +82,16 @@ df2['u1_difference'] = df2["LAECF411"].shift(1)
 
 
     #     df2.loc[i, 'u1_difference'] = df2.at[i + 1, 'LAECF411'] - df2.at[i, 'LAECF411']
-    #     df2.loc[i, 'u2_difference'] = df2.at[i + 1, 'u2'] - df2.at[i, 'u2']
-    #     df2.loc[i, 'u3_difference'] = df2.at[i + 1, 'u3'] - df2.at[i, 'u3']
-    #     df2.loc[i, 'u4_difference'] = df2.at[i + 1, 'TOTFUELF'] - df2.at[i, 'TOTFUELF']
 
-    df2['u1_difference'] = df2["LAECF411"].shift(1)
-    df2['u1_difference'] = df2["LAECF411"] - df2['u1_difference']
-    df2['u1_difference'] = df2['u1_difference'].shift(-1)
+
+# df2['u1_difference'] = (df2["LAECF411"] - df2["LAECF411"].shift(1)).shift(-1)
     
 # dataframe某个值得索引
 begin_index = df2[df2['时间'] == seg[0]].index.tolist()[0]
+
+
+# numpy中std()和pandas中std()的区别
+注意，计算得出的默认标准偏差类型在 numpy 的 .std() 和 pandas 的 .std() 函数之间是不同的。默认情况下，numpy 计算的是总体标准偏差，ddof = 0。另一方面，pandas 计算的是样本标准偏差，ddof = 1。如果我们知道所有的分数，那么我们就有了总体——因此，要使用 pandas 进行归一化处理，我们需要将“ddof”设置为 0。
+
+如是总体,标准差公式根号内除以n, 
+如是样本,标准差公式根号内除以（n-1),
