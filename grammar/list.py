@@ -2,7 +2,18 @@
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
 # @File    : list.py
+# import numpy as np
+import numpy as np
+# # 对列表求均值
+# a = [1, 2, 3]
+# print(np.mean(a))
 
+
+# 列表乘以一个数字(推导式),列表重复与拼接(对应乘,加)
+a = [1, 2, 3]
+print(a)
+a = [x * 2 for x in a]
+print(a, a * 4)
 
 # List 可变类型
 List = [1, 2, "345", [2, 3]]  # 类表无无固定约束类型
@@ -66,7 +77,6 @@ S = ''.join(L)
 print(S)
 S = 'wyl'.join(L)  # 字符串中间填充拼接
 print(S)
-
 
 # list.sort 是对主体列表进行在原处的修改:返回None,而不是其修改的列表
 """
