@@ -1,9 +1,21 @@
 # @Time    : 2018/9/26 10:38
 # @Author  : Yanlin Wang
 # @Email   : Wangyl_a@163.com
-# @File    : string.py
+# @File    : string_.py
 
 string1 = 'hello,world,frank'
+
+# 字符串忽略大小写的方法
+# 三种方法, str.upper(),lower(),title()
+# 注意这三种方法 均返回一个字符串,原来字符串不会有影响, 字符串的不可变性
+
+# if file.lower().endswith('.jpg'):
+
+test_i = string1.lower()
+print(type(test_i), test_i)
+
+#  字符串以jpg或者JPG结尾;  str.lower().endwith('.jpg')
+
 # 字符串不可变性
 """
 常用string操作 + *
