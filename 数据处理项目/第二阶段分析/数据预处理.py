@@ -1,7 +1,7 @@
 # @Time    : 2018/10/22 19:00
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : 筛选8月功率300以上的.py
+# @File    : 数据预处理.py
 
 
 import os
@@ -116,7 +116,7 @@ def blank_detect(df2):
     return blank_numbers
 
 
-def add_u1_difference(df2):
+def add_difference(df2):
     # 最后一位没有下一位,不包括
     print(df2.index, len(df2.index))
     # 计算差值
@@ -150,56 +150,137 @@ def plot_difference_value(y, title, line=0):
     plt.show()
 
 
-def column_analysis(y):
+def column_analysis(y, analysis_list):
+    """
+    对某列数据进行分析
+    :param y: 列数据(一个列表)
+    :param analysis_list: 需要分析的y值列
+    :return: 
+    """
     all_count = len(y)
     print('总条数:', all_count)
     print('max: ', max(y), 'min: ', min(y))
     # step = [7, 8, 9, 10, 11, 12, 13, 14, 15]
-    step = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    for i in range(len(step)):
-        count = len([x for x in y if (x >= -step[i] and x <= step[i])])
-        print('正负{}范围条数: '.format(step[i]), count, '异常条数: ', all_count - count,
+    # step = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    for i in range(len(analysis_list)):
+        count = len([x for x in y if (x >= -analysis_list[i] and x <= analysis_list[i])])
+        print('正负{}范围条数: '.format(analysis_list[i]), count, '(异常条数: {})'.format(all_count - count),
               '占{:.5f}%'.format((count / all_count) * 100))
 
 
-if __name__ == "__main__":
+def data_preprocession():
     """
-        dir_path = r'F:/HistoryData/08new/'
-        output_path = dir_path[:-1] + 'process_mw300/'
-        save_file_name = r'all08.csv'  # 合并后要保存的文件名
-    
-        if (not os.path.exists(output_path)):
-            os.mkdir(output_path)
-    
-        # 对目录下的所有文件进行筛选操作, 筛选完放入目标文件夹
-        for parent, dir_names, file_names in os.walk(dir_path):
-            for filename in file_names:
-                csv_data_filtering(os.path.join(parent, filename), os.path.join(output_path, filename))
-    
-        # 对目标文件夹内的所有数据进行合并
-        csv_merge(output_path, save_file_name)
-        
-        input_file = r'F:/HistoryData/09newprocess_300_370/all09.csv'
-        df2 = pd.read_csv(input_file, header=0)
-        df2 = deviation_filtering(df2, 0.35)
-        output = r'F:/HistoryData/09newprocess_300_370/all09_300_370.csv'
-        df2.to_csv(output, index=False)
-    
+    第一步处理,对导出的原始数据进行预处理,包括:筛选功率300以上的,文件合并
+    :return: 
     """
+    dir_path = r'F:/HistoryData/08new/'
+    output_path = dir_path[:-1] + 'process_mw300/'
+    save_file_name = r'all08.csv'  # 合并后要保存的文件名
+
+    if (not os.path.exists(output_path)):
+        os.mkdir(output_path)
+
+    # 对目录下的所有文件进行筛选操作, 筛选完放入目标文件夹
+    for parent, dir_names, file_names in os.walk(dir_path):
+        for filename in file_names:
+            csv_data_filtering(os.path.join(parent, filename), os.path.join(output_path, filename))
+
+    # 对目标文件夹内的所有数据进行合并
+    csv_merge(output_path, save_file_name)
+
     """
-    计算difference差值
-        input_file = r'F:/HistoryData/08newprocess_mw300/all08.csv'
-    
-        df2 = pd.read_csv(input_file, header=0)
-        df2 = add_u1_difference(df2)
-        output_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
+    input_file = r'F:/HistoryData/09newprocess_300_370/all09.csv'
+    df2 = pd.read_csv(input_file, header=0)
+    df2 = deviation_filtering(df2, 0.35)
+    output = r'F:/HistoryData/09newprocess_300_370/all09_300_370.csv'
+    df2.to_csv(output, index=False)
+    """
+
+
+def process_add_difference(path):
+    """
+    对文件夹内的所有段(或整文件), 计算difference差值
+    :param path: 需要添加文件所在的文件夹
+    :return: 
+    """
+    # 遍历文件夹下的所有文件
+    for info in os.listdir(path):
+        # 将路径与文件名结合起来就是每个文件的完整路径
+        path_file = os.path.join(os.path.abspath(path), info)
+        df2 = pd.read_csv(path_file, header=0)
+
+        # 调用对每个 dataframe 添加difference的函数
+        df2 = add_difference(df2)
+        output_file = path_file
         df2.to_csv(output_file, index=False)
-    
+
+        # path = r'C:/Users/Frank/Desktop/08time_series/'
+
+        # output_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
+        # input_file = r'F:/HistoryData/08newprocess_mw300/all08.csv'
+
+def plot_column():
+    """
+    绘图分析  u1_difference, u4_difference
+    :return: 
     """
     input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
     df2 = pd.read_csv(input_file, header=0)
     print(len(df2.index))
-    y = df2['u4_difference'].tolist()[:-1]
+    y = df2['u1_difference'].tolist()[:-1]
+    for items in y:
+        if items > 30:
+            print()
     # x = np.linspace(1, len(y), len(y))
-    column_analysis(y)
-    plot_difference_value(y, 'u4_difference', 3)
+    analysis_list = [0.5, 1, 2, 3, 4, 5, 6, 7, 10, 15, 20, 30, 40]
+    column_analysis(y, analysis_list)
+    plot_difference_value(y, 'u1_difference')
+
+
+def value_index_find():
+    """
+    找到表格中异常值(比如大于30的值)得位置
+    :return: 
+    """
+    input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
+    df2 = pd.read_csv(input_file, header=0)
+    print(len(df2.index))
+    y = df2['u1_difference'].tolist()[:-1]
+    for i in range(len(y)):
+        if y[i] > 10:
+            # 除去表头和索引0开始,i+2
+            print('表格第{}行'.format(i + 2), y[i])
+
+
+def main():
+    print('hello, my darling!')
+    input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
+    df2 = pd.read_csv(input_file, header=0)
+    print(len(df2.index))
+    y = df2['u1_difference'].tolist()
+    # x = np.linspace(1, len(y), len(y))
+    analysis_list = [0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1,1.2,1.5]
+    column_analysis(y, analysis_list)
+    # plot_difference_value(y, 'u1_difference')
+
+
+def time_break_difference_to_0():
+    input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
+    df2 = pd.read_csv(input_file, header=0)
+    print(len(df2.index))
+    for i in range(1, len(df2.index)-1):
+        if pd.Timestamp(df2.date[i]) - pd.Timestamp(df2.date[i - 1]) != dt.timedelta(seconds=1):
+            df2.loc[i - 1, 'u1_difference'] = 0
+    df2.to_csv(input_file, index=False)
+
+
+if __name__ == "__main__":
+    pass
+    # pass
+    # value_index_find()
+    # plot_column()
+    # time_break_difference_to_0()
+    # main()
+    # caculated()
+    path = r'C:/Users/Frank/Desktop/09time_series/'
+    process_add_difference(path)

@@ -75,3 +75,6 @@ df2['u1_difference'] = df2["LAECF411"].shift(1)
     df2['u1_difference'] = df2["LAECF411"].shift(1)
     df2['u1_difference'] = df2["LAECF411"] - df2['u1_difference']
     df2['u1_difference'] = df2['u1_difference'].shift(-1)
+    
+# dataframe某个值得索引
+begin_index = df2[df2['时间'] == seg[0]].index.tolist()[0]

@@ -8,6 +8,7 @@ import os
 import numpy as np
 import pandas as pd
 
+# p = np.eye(25) * (10 ** 8)  # 每个文件重置一次
 p = np.eye(25) * (10 ** 8)  # 每个文件重置一次
 theta = np.zeros((25, 1))
 input_path = r'C:/Users/Frank/Desktop/08time_series/'
@@ -68,15 +69,15 @@ for info in os.listdir(input_path):
     # 零矩阵  np.zeros(tuple(x, y) , 参数必须为元组
     start_item = max([d1, d2, d3, d4]) + 10
     end_item = len(df2.index) - start_item - 10
+
     for k in range(start_item, end_item):
         K = p.dot(phi_1(k).T) * ((1 + phi_1(k).dot(p).dot(phi_1(k).T)) ** -1)
         # print(k, K)
         theta = theta + K * (y_output[k - 1] - phi_1(k).dot(theta))
         # print(k, theta.T)
         p = (np.eye(25) - K.dot(phi_1(k))).dot(p)
-    p = np.eye(25) * (10 ** 8)  # 每个文件重置一次
-    print(theta.T.tolist())
 
+    print(theta.T.tolist())
 
 """
 [[-1.01575681 -0.19002532 -0.05443981  0.09605609  0.16415831 -0.00205784
@@ -86,3 +87,5 @@ for info in os.listdir(input_path):
    0.04221205]]
 
 """
+
+
