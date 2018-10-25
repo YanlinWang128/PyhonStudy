@@ -3,6 +3,12 @@
 # @Email   : wangyl_a@163.com
 # @File    : dict.py
 
+
+
+# 新建字典
+num_mapping = dict()
+# 给字典赋值
+# num_mapping[nums[i]] = i
 # 字典{} ,字典不是序列, 是一种key/value 映射 (mapping)
 # 可变性
 D = {'food': 'Span', 'quantity': 4, 'color': 'pink'}
