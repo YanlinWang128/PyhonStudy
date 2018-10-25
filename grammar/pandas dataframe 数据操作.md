@@ -1,3 +1,28 @@
+# dataframe数据筛选
+df2 = df2[(df2['JT66801A'] <= 400) & (df2['JT66801A'] >= 300)]
+
+dfnew1 = df2[(df2.TOTFUELF > 0) & (df2.THRPRESS < 1)][['TOTFUELF', 'THRPRESS']]
+dfnew1.to_csv(output_file, index=False)
+
+# dataframe只保存需要的几列
+dfnew = df[['TOTFUELF', 'THRPRESS']]
+
+
+# dataframe 添加一列数据
+把dataframe如df1中的一列或若干列加入另一个dataframe，如df2
+思路：先把数据按列分割，然后再把分出去的列重新插入
+    df1 = pd.read_csv('example.csv')
+    date = df1.pop('date')  # 获取到纯数据
+
+（2）将这一列插入到指定位置，假如插入到第一列
+    df2.insert(0,'date',date)
+（3）默认插入到最后一列
+    df2['date'] = date
+
+# dataframe 添加一列 列表推导式推出的列表数据
+    list_temp = [x for x in range(201)]
+    df['a'] = list_temp
+
 # 两行相减(隔行相减) -- shift函数的使用
 df.p['xx_1'] = df.p["xx"].shift(1) # 向下移动一位
 df.p['xx'] - df.p["xx_1"]
@@ -11,6 +36,8 @@ df2 = df.drop(['MonthlyIncome'],axis=1)
 df.rename(columns  = {'ID':'id', 'code':'编码'})
 或者直接全部替换
 df.columns = ['ID','hello']
+
+
 
 # 对于匹配好工况段
 现阶段的思路:确定好边界索引,遍历每个工况段,求偏差,不满足条件的标记

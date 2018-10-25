@@ -3,16 +3,35 @@
 # @Email   : wangyl_a@163.com
 # @File    : Python优化.py
 
+
 n, a, b = 0, 0, 1
+
+# Numpy 数组矢量比pandas series 更快
+
+# pandas  向量化计算,比循环 计算 效率高上千倍
+
+"""
+data = pd.read_csv("EuStockMarkets.csv")
+data.head()
+
+# 向量化计算
+data['target'] = np.sin(data['DAX'].values) * 1.1
+
+"""
+
+
+
 # 增强语句
+a += 10
+print(a)
 """
 增强语句,a只出现1次,只需计算一次,更加快速
 """
 
-a += 10
-print(a)
 
 # Python化计算更快速
+
+
 print(a, b)
 a, b = b, a + b
 print(a, b)
