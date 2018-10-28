@@ -8,7 +8,7 @@ import pandas as pd
 import time
 
 
-def try1try():
+def try1try(a, d):
     file_path = r'C:/Users/Frank/Desktop/try1025/all08_1025.csv'
     df2 = pd.read_csv(file_path, header=0)
     print(df2.columns.values.tolist())
@@ -18,14 +18,14 @@ def try1try():
     TOTFUELF = df2['TOTFUELF'].tolist()  # u
     print(len(THRPRESS), len(TOTFUELF))
 
-    # y1 系数, 初始值为1
-    a = 0.1
-
-    # 延时,初值设置为 60
-    d = 60
+    # # y1 系数, 初始值为1
+    # a = 1
+    #
+    # # 延时,初值设置为 60
+    # d = 100
 
     # 开始时刻 63, 结束时刻,数据长度
-    start_item = 63
+    start_item = d + 3
     end_item = len(THRPRESS)
 
     y1 = [0] * (start_item - 1)  # 62
@@ -53,11 +53,11 @@ def try1try():
         print('y1列和 THRPRESS列数据个数不同')
     print(len(y), y[-100:])
 
-    df2.to_csv(r'C:/Users/Frank/Desktop/try1025/y_a0_1_all08_1025.csv', index=False)
+    df2.to_csv(r'C:/Users/Frank/Desktop/try1025/y_a_1_d_20_all08_1026.csv', index=False)
 
 
 if __name__ == '__main__':
     start = time.clock()
-    try1try()
+    try1try(1, 20)
     end = time.clock()
     print('Running time: %s Seconds' % (end - start))
