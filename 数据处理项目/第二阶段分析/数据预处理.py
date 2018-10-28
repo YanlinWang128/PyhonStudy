@@ -196,7 +196,7 @@ def data_preprocession():
     df2.to_csv(output, index=False)
     """
 
-
+# 对文件夹内的所有段(或整文件), 计算difference差值
 def process_add_difference(path):
     """
     对文件夹内的所有段(或整文件), 计算difference差值
@@ -208,9 +208,11 @@ def process_add_difference(path):
         # 将路径与文件名结合起来就是每个文件的完整路径
         path_file = os.path.join(os.path.abspath(path), info)
         df2 = pd.read_csv(path_file, header=0)
+        print(df2.columns.values.tolist())
 
         # 调用对每个 dataframe 添加difference的函数
-        df2 = add_difference(df2)
+        # df2 = add_difference(df2)
+        df2['y_difference'] = (df2["T12A041A"] - (df2["T12A041A"].shift(1))).shift(-1)
         output_file = path_file
         df2.to_csv(output_file, index=False)
 
@@ -219,6 +221,7 @@ def process_add_difference(path):
         # output_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
         # input_file = r'F:/HistoryData/08newprocess_mw300/all08.csv'
 
+# 绘图分析列
 def plot_column():
     """
     绘图分析  u1_difference, u4_difference
@@ -236,7 +239,7 @@ def plot_column():
     column_analysis(y, analysis_list)
     plot_difference_value(y, 'u1_difference')
 
-
+# 找到表格中异常值(比如大于30的值)得位置
 def value_index_find():
     """
     找到表格中异常值(比如大于30的值)得位置
@@ -275,17 +278,27 @@ def time_break_difference_to_0():
 
 
 if __name__ == "__main__":
-    pass
+    # pass
     # pass
     # value_index_find()
     # plot_column()
 
-    # u4_difference 置0,绘图
-    time_break_difference_to_0()
-    main()
+                 # u4_difference 置0,绘图
+    # time_break_difference_to_0()
+    # main()
+
+
     # caculated()
-    # path = r'C:/Users/Frank/Desktop/09time_series/'
-    # process_add_difference(path)
+
+            # 添加新的 差值列
+    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_26.csv'
+
+    df2 = pd.read_csv(input_file, header=0)
+    df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
+    df2['u_difference'] = (df2["u"] - (df2["u"].shift(1))).shift(-1)
+    df2.to_csv(input_file, index=False)
+
+
 """
 u1: 0.5
 一个采样周期输入的变化量大于0.1

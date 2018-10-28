@@ -28,8 +28,17 @@ def add_df_line(df2):
     u = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/u.mat')
     df2['u'] = u['u']
     return df2
+
+def read_mat():
+    u = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/u.mat')
+    y = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/y.mat')
+    dfdata = pd.DataFrame(y['y'], columns=['y'])
+    dfdata['u'] = u['u']
+    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_10_26.csv', index=False)
+
+
 if __name__ == '__main__':
-    mat_to_csv()
+    read_mat()
 """
 读写 mat 格式数据(字典格式)
 

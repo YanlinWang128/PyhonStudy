@@ -32,14 +32,14 @@ def theta_caculate():
 
         # 1* 25
         def phi_1(k):
-            temp = y_output[(k - 1 - 1):(k - 1 - 5 - 1):-1]
+            temp = y_output[(k - 1 - 1):(k - 5 - 1 - 1):-1]
             return np.array(
-                [[x * -1 for x in temp] + u1_difference[(k - 1 - 1 - 1):(k - 1 - 3 - d1 - 2):-1][
-                                          -5:] + u2_difference[(k - 1 - 1 - 1):(k - 1 - 3 - d2 - 2):-1][
+                [[x * -1 for x in temp] + u1_difference[(k - 1 - 2):(k - 1 - 3 - d1 - 2 - 1):-1][
+                                          -5:] + u2_difference[(k - 1 - 2):(k - 1 - 3 - d2 - 2 - 1):-1][
                                                  -5:] + u3_difference[
-                                                        (k - 1 - 1 - 1):(k - 1 - 3 - d3 - 2):-1][
+                                                        (k - 1 - 2):(k - 1 - 3 - d3 - 2 - 1):-1][
                                                         -5:] + u4_difference[
-                                                               (k - 1 - 1 - 1):(k - 1 - 3 - d4 - 2):-1][
+                                                               (k - 1 - 2):(k - 1 - 3 - d4 - 2 - 1):-1][
                                                                -5:]])
 
         start_item = max([d1, d2, d3, d4]) + 10

@@ -38,5 +38,16 @@ if __name__ == '__main__':
     # df2 = pd.read_csv(input_file, header=0)
     # df2['u2_difference'] = (df2["u2"] - (df2["u2"].shift(1))).shift(-1)
 
-    a = ([1, -1] * 101)[:-1]
-    print(len(a), a)
+    # a = ([1, -1] * 101)[:-1]
+    # print(len(a), a)
+    a = [1, 2, 3, 4, 5,6, 7, 8, 9]
+    print(a)
+    print(a[::-1])
+
+    print(a[-5::-1])
+    print(a[8: 1:-1])
+    print(a[8: 0:-1])
+    print(a[8: 2:-1])
+
+
+    print(a[1:8])
