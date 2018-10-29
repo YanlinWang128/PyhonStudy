@@ -34,7 +34,7 @@ def read_mat():
     y = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/y.mat')
     dfdata = pd.DataFrame(y['y'], columns=['y'])
     dfdata['u'] = u['u']
-    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_10_26.csv', index=False)
+    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_10_29.csv', index=False)
 
 
 if __name__ == '__main__':

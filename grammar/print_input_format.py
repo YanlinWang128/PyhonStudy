@@ -5,6 +5,13 @@
 
 print("hello,world")
 
+# print  结束符end= 默认是换行, 可以改为空,则连续输出
+print('hello, world', end='')
+print("hello,world")
+print('hello, world', end='***\n')
+
+
+
 # 同步赋值
 x = 1
 y = 2

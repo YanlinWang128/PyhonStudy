@@ -45,8 +45,11 @@ if __name__ == '__main__':
     print(a[::-1])
 
     print(a[-5::-1])
+    print('---' * 10)
     print(a[8: 1:-1])
+    print(a[8: -1:-1])
     print(a[8: 0:-1])
+    print('---' * 10)
     print(a[8: 2:-1])
 
 
