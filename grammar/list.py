@@ -7,7 +7,17 @@ import numpy as np
 # # 对列表求均值
 # a = [1, 2, 3]
 # print(np.mean(a))
+"""
+L.sort()的类型是NoneTYPE，也就是没有类型, 直接在原来列表上进行排序。
 
+print(L.sort())结果为None。
+
+M = sorted(L)  返回一个新的排序好的列表
+
+"""
+
+
+# file_list = sorted(os.listdir(path), key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
 
 # 列表乘以一个数字(推导式),列表重复与拼接(对应乘,加)
 a = [1, 2, 3]

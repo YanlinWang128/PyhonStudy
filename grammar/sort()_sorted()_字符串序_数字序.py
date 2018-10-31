@@ -8,4 +8,4 @@ import os
 import re
 
 path = r'F:/HistoryData/09newprocess/'
-file_list = sorted(os.listdir(path), key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
+# file_list = sorted(os.listdir(path), key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
