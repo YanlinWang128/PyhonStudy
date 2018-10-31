@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 def theta_caculate():
     # 初始值
     p = np.eye(25) * (10 ** 10)  # 每个文件重置一次
-    theta = np.zeros((25, 1))
+    theta = np.zeros((4, 1))
     input_path = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv'
     d1 = d2 = d3 = d4 = 20
 

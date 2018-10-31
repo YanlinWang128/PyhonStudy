@@ -13,10 +13,11 @@ import matplotlib.pyplot as plt
 
 def theta_caculate():
     # 初始值
-    p = np.eye(24) * (10 ** 8)  # 每个文件重置一次
-    theta = np.zeros((24, 1))
+    p = np.eye(9) * (10 ** 8)
+    # p = np.eye(9) * (10 ** 8)  # 每个文件重置一次
+    theta = np.zeros((9, 1))
     input_path = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv'
-    d1 = d2 = d3 = d4 = 20
+    d1 = 20
 
     theta_first_value = [0]
     df2 = pd.read_csv(input_path, header=0)
@@ -27,24 +28,18 @@ def theta_caculate():
     y_output = df2['y_difference'].tolist()[:-1]
 
     u1_difference = df2['u_difference'].tolist()[:-1]
-    u2_difference = [0] * len(y_output)
-    u3_difference = [0] * len(y_output)
-    u4_difference = [0] * len(y_output)
-    print(len(y_output), len(u1_difference), len(u2_difference))
+    # u2_difference = [0] * len(y_output)
+    # u3_difference = [0] * len(y_output)
+    # u4_difference = [0] * len(y_output)
+    print(len(y_output), len(u1_difference))
 
     # 1* 24
     def phi_1(k):
         temp = y_output[(k - 1 - 2):(k - 4 - 2 - 1):-1]
         return np.array(
-            [[x * -1 for x in temp] + u1_difference[(k - 1 - 2):(k - 1 - 3 - d1 - 2 - 1):-1][
-                                      -5:] + u2_difference[(k - 1 - 2):(k - 1 - 3 - d2 - 2 - 1):-1][
-                                             -5:] + u3_difference[
-                                                    (k - 1 - 2):(k - 1 - 3 - d3 - 2 - 1):-1][
-                                                    -5:] + u4_difference[
-                                                           (k - 1 - 2):(k - 1 - 3 - d4 - 2 - 1):-1][
-                                                           -5:]])
+            [[x * -1 for x in temp] + u1_difference[(k - 1 - 2):(k - 1 - 3 - d1 - 2 - 1):-1][-5:] ])
 
-    start_item = max([d1, d2, d3, d4]) + 7
+    start_item = d1 + 7
     end_item = len(df2.index) - start_item
 
     for k in range(start_item, end_item):
@@ -52,11 +47,10 @@ def theta_caculate():
         # 差值索引 - 2
         theta = theta + K * (y_output[k - 2] - phi_1(k).dot(theta))
         # print('--' * 10)
-        theta_first_value.append(theta.T.tolist()[0][0])
+        theta_first_value.append(theta.T.tolist()[0][4])
         # print(theta.T.tolist())
-        p = (np.eye(24) - K.dot(phi_1(k))).dot(p)
+        p = (np.eye(9) - K.dot(phi_1(k))).dot(p)
 
-    p = np.eye(24) * (10 ** 8)  # 每个文件重置一次
 
     print(theta.T.tolist())
 
@@ -64,7 +58,7 @@ def theta_caculate():
 
     plt.plot(theta_first_value, color='red', linewidth=2, linestyle='--', label='theta_first_value')
     # plt.legend(loc='best')  # 显示在最好的位置
-    plt.title('theta_eighth_value')
+    plt.title('theta_first_value')
     plt.show()  # 显示图
     # print(p.shape, p)
     # a, b = np.linalg.eig(p)

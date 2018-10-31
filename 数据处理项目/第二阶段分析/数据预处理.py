@@ -291,7 +291,7 @@ if __name__ == "__main__":
     # caculated()
 
             # 添加新的 差值列
-    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_29.csv'
+    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv'
 
     df2 = pd.read_csv(input_file, header=0)
     df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)

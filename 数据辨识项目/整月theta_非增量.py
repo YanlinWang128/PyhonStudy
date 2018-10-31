@@ -1,4 +1,4 @@
-# @Time    : 2018/10/18 16:11
+# @Time    : 2018/10/30 15:58
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
 # @File    : 计算整月的theta.py
@@ -9,65 +9,68 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def theta_caculate():
+
+
+# 计算theta
+def theta_caculate(input_path,lambda1=1, p_reset=True):
     # 初始值
-    p = np.eye(25) * (10 ** 10)  # 每个文件重置一次
+    p = np.eye(25) * (10 ** 8)  # 每个文件重置一次
     theta = np.zeros((25, 1))
-    input_path = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv'
-    d1 = d2 = d3 = d4 = 20
 
+    # 函数调用参数信息
+    print('--' * 20, '\n遗忘因子: {}\n重置: {}'.format(lambda1, p_reset))
 
-    df2 = pd.read_csv(input_path, header=0)
+    # input_path = r'C:/Users/Frank/Desktop/08time_series/'
+    d1 = d2 = d3 = d4 = 60
 
-    print(df2.columns.values.tolist())
-    theta_first_value = [0]
-    y_output = df2['y'].tolist()
-    difference_length = len(df2.index) - 1
-    print(difference_length)
+    for info in os.listdir(input_path):
+        domain = os.path.abspath(input_path)  # 获取文件夹的路径
+        path_file = os.path.join(domain, info)  # 将路径与文件名结合起来就是每个文件的完整路径
+        df2 = pd.read_csv(path_file, header=0)
 
-    u1_difference = df2['u_difference'].tolist()
+        # print(df2.columns.values.tolist())
 
-    u2_difference = [0] * difference_length
-    u3_difference = [0] * difference_length
-    u4_difference = [0] * difference_length
-    # 1* 25
-    def phi_1(k):
-        temp = y_output[(k - 1 - 1):(k - 5 - 1 - 1):-1]
-        return np.array(
-            [[x * -1 for x in temp] + u1_difference[(k - 1 - 2):(k - 1 - 3 - d1 - 2 - 1):-1][
-                                      -5:] + u2_difference[(k - 1 - 2):(k - 1 - 3 - d2 - 2 - 1):-1][
-                                             -5:] + u3_difference[
-                                                    (k - 1 - 2):(k - 1 - 3 - d3 - 2 - 1):-1][
-                                                    -5:] + u4_difference[
-                                                           (k - 1 - 2):(k - 1 - 3 - d4 - 2 - 1):-1][
-                                                           -5:]])
+        y_output = df2['T12A041A'].tolist()
 
-    start_item = max([d1, d2, d3, d4]) + 7
-    end_item = len(df2.index) - start_item
+        u1_difference = df2['u1_difference'].tolist()
+        u2_difference = df2['u2_difference'].tolist()
+        u3_difference = df2['u3_difference'].tolist()
+        u4_difference = df2['u4_difference'].tolist()
 
-    for k in range(start_item, end_item):
-        K = p.dot(phi_1(k).T) * ((1 + phi_1(k).dot(p).dot(phi_1(k).T)) ** -1)
-        theta = theta + K * (y_output[k - 1] - phi_1(k).dot(theta))
-        theta_first_value.append(theta.T.tolist()[0][5])
-        p = (np.eye(25) - K.dot(phi_1(k))).dot(p)
+        # 1* 25
+        def phi_1(k):
+            temp = y_output[(k - 1 - 1):(k - 5 - 1 - 1):-1]
+            return np.array(
+                [[x * -1 for x in temp] + u1_difference[(k - 1 - 2):(k - 1 - 3 - d1 - 2 - 1):-1][
+                                          -5:] + u2_difference[(k - 1 - 2):(k - 1 - 3 - d2 - 2 - 1):-1][
+                                                 -5:] + u3_difference[
+                                                        (k - 1 - 2):(k - 1 - 3 - d3 - 2 - 1):-1][
+                                                        -5:] + u4_difference[
+                                                               (k - 1 - 2):(k - 1 - 3 - d4 - 2 - 1):-1][
+                                                               -5:]])
 
+        start_item = max([d1, d2, d3, d4]) + 7
+        end_item = len(df2.index) - start_item
 
+        for k in range(start_item, end_item):
+            K = p.dot(phi_1(k).T) * ((lambda1 + phi_1(k).dot(p).dot(phi_1(k).T)) ** -1)
+            theta = theta + K * (y_output[k - 1] - phi_1(k).dot(theta))
+            p = (1 / lambda1) * ((np.eye(25) - K.dot(phi_1(k))).dot(p))
+
+        if p_reset is True:
+            p = np.eye(25) * (10 ** 8)  # 每个文件重置一次
 
     print(theta.T.tolist())
     # print(p.shape, p)
     # a, b = np.linalg.eig(p)
     # print('--' * 10)
     # print(a)
-
-    plt.plot(theta_first_value, color='red', linewidth=2, linestyle='--', label='theta_first_value')
-    # plt.legend(loc='best')  # 显示在最好的位置
-    # plt.title('theta_sixth_value')
-    plt.show()  # 显示图
     return theta
 
 
 if __name__ == '__main__':
-    theta_caculate()
+    input_path = r'C:/Users/Frank/Desktop/08time_series/'
+    theta_caculate(input_path)
 
 # print()
 """

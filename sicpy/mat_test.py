@@ -8,15 +8,15 @@ import scipy.io
 import pandas as pd
 
 def mat_to_csv():
-    features_struct = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/y.mat')
+    features_struct = scipy.io.loadmat(r'C:/Users/Frank/Desktop/filetest/u.mat')
 
 
     # print(features_struct)
     # 读取字典某列数据
-    features = features_struct['y']
+    features = features_struct['u']
 
     # 注意: 未指定列名的数据, 默认标题是列索引号0, 该条数据,应该是标题, 需要加入columns指定
-    dfdata = pd.DataFrame(features,  columns=['y'])
+    dfdata = pd.DataFrame(features,  columns=['u'])
     list_temp = [x for x in range(201)]
     dfdata['a'] = list_temp
 
@@ -30,13 +30,13 @@ def add_df_line(df2):
     return df2
 
 def read_mat():
-    u = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/u.mat')
-    y = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/y.mat')
-    print(u)
-    print(y)
-    dfdata = pd.DataFrame(y['y2'], columns=['y'])
-    dfdata['u'] = u['u2']
-    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv', index=False)
+    u = scipy.io.loadmat(r'C:/Users/Frank/Desktop/filetest/u.mat')
+    # y = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/y.mat')
+    # print(u)
+    # print(y)
+    dfdata = pd.DataFrame(u['u'], columns=['u'])
+    # dfdata['u'] = u['u']
+    dfdata.to_csv(r'C:/Users/Frank/Desktop/filetest/u.csv', index=False)
 
 
 if __name__ == '__main__':

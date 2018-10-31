@@ -31,7 +31,7 @@ u1_difference = df2['u_difference'].tolist()[:-1]
 u2_difference = [0] * len(u1_difference)
 u3_difference = [0] * len(u1_difference)
 u4_difference = [0] * len(u1_difference)
-print(u2_difference)
+# print(u2_difference)
 print(len(y_real), len(y_difference), len(u1_difference), len(u2_difference))
 # 新建指定尺寸,全为 10**8 值得列表np.full(tuple(x, y), value)
 # p = np.full((25, 25), 10 ** 8)
