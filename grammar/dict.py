@@ -3,10 +3,27 @@
 # @Email   : wangyl_a@163.com
 # @File    : dict.py
 
-
+a = {1: 1, 2: 2, 3: 3}
+b = sorted(list(a.keys()))  # b.sort() 不返回列表
+print(','.join([str(x) for x in b]))
 
 # 新建字典
 num_mapping = dict()
+
+# 字典的各项属性
+"""
+for key in dict.keys():
+    print('key = {}'.format(key))
+
+for value in dict.values():
+    print('value = {}'.format(value))
+
+for key,value in dict.items():
+    print('{key}:{value}'.format(key = key, value = value))
+
+
+"""
+
 # 给字典赋值
 # num_mapping[nums[i]] = i
 # 字典{} ,字典不是序列, 是一种key/value 映射 (mapping)
@@ -83,4 +100,3 @@ print(values)  # 添加 {'name': 'Bob', 'age': 50, 'QQ': 1195441296}
 # in 进行成员关系测试
 
 #
-
