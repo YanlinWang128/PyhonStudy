@@ -13,7 +13,7 @@ def theta_caculate():
     # 初始值
     p = np.eye(25) * (10 ** 10)  # 每个文件重置一次
     theta = np.zeros((25, 1))
-    input_path = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv'
+    input_path = r'C:/Users/Frank/Desktop/tongliu/mat_data_1101.csv'
     d1 = d2 = d3 = d4 = 20
 
 
@@ -25,11 +25,14 @@ def theta_caculate():
     difference_length = len(df2.index) - 1
     print(difference_length)
 
-    u1_difference = df2['u_difference'].tolist()
-
-    u2_difference = [0] * difference_length
-    u3_difference = [0] * difference_length
-    u4_difference = [0] * difference_length
+    # u1_difference = df2['u_difference'].tolist()
+    u1_difference = df2['u1_difference'].tolist()
+    u2_difference = df2['u2_difference'].tolist()
+    u3_difference = df2['u3_difference'].tolist()
+    u4_difference = df2['u4_difference'].tolist()
+    # u2_difference = [0] * difference_length
+    # u3_difference = [0] * difference_length
+    # u4_difference = [0] * difference_length
     # 1* 25
     def phi_1(k):
         temp = y_output[(k - 1 - 1):(k - 5 - 1 - 1):-1]

@@ -23,12 +23,20 @@ def csv_data_filtering(input_file, output_path):
     df2 = del_attribution_columns(df2)
 
     # 根据功率筛选, 只需要 满功率330+_8
-    df2 = df2[(df2['JT66801A'] <= 400) & (df2['JT66801A'] >= 300)]
+    # df2 = df2[(df2['JT66801A'] <= 400) & (df2['JT66801A'] >= 300)]
 
     # 检测空白值并填充,向上填充数据
     df2.fillna(method='ffill', inplace=True)
-    while (blank_detect(df2)):
-        df2.fillna(method='ffill', inplace=True)
+    df2.fillna(method='ffill', inplace=True)
+    df2.fillna(method='ffill', inplace=True)
+    df2.fillna(method='ffill', inplace=True)
+    df2.fillna(method='bfill', inplace=True)
+    df2.fillna(method='bfill', inplace=True)
+    df2.fillna(method='bfill', inplace=True)
+    df2.fillna(method='bfill', inplace=True)
+
+    # while (blank_detect(df2)):
+    #     df2.fillna(method='ffill', inplace=True)
 
     # 低过入口温度的均值
     df2['u2'] = ((df2['HAG10T01'] + df2['HAG10T02'] + df2['HAG10T03'] + df2['HAG10T04'] + df2['HAG10T05'] + df2[
@@ -38,6 +46,7 @@ def csv_data_filtering(input_file, output_path):
     df2['u3'] = (df2['HBKCT101'] + df2['HBKCT201']) / 2
     df2['LYTFW'] = (df2['LABCT301'] + df2['LABCT302']) / 2
 
+    df2 = df2[['date','LAECF411', 'u2', 'u3', 'TOTFUELF', 'T12A041A']]
     outfile = df2
     if (outfile.empty):  # 没有数据剩余
         print("Already processed, no eligible data ")
@@ -159,12 +168,10 @@ def blank_detect(df2):
     blank_numbers = int(df2.isnull().any().sum())
     print("No blank" if (blank_numbers == 0) else "All is {} blank".format(blank_numbers))
     return blank_numbers
-
-
-if __name__ == "__main__":
-    dir_path = r'F:/HistoryData/09new/'
-    output_path = dir_path[:-1] + 'process_300_370/'
-    save_file_name = r'all09.csv'  # 合并后要保存的文件名
+def data1101():
+    dir_path = r'F:/HistoryData/08new/'
+    output_path = dir_path[:-1] + 'process_all1101/'
+    save_file_name = r'all08.csv'  # 合并后要保存的文件名
 
     if (not os.path.exists(output_path)):
         os.mkdir(output_path)
@@ -174,10 +181,16 @@ if __name__ == "__main__":
         for filename in file_names:
             csv_data_filtering(os.path.join(parent, filename), os.path.join(output_path, filename))
 
+if __name__ == "__main__":
+    data1101()
+    path = r'F:/HistoryData/08newprocess_all1101'
+    save_file_name = r'all08.csv'  # 合并后要保存的文件名
+    csv_merge(path, save_file_name)
+
     # 对目标文件夹内的所有数据进行合并
-    csv_merge(output_path, save_file_name)
-    input_file = r'F:/HistoryData/09newprocess_300_370/all09.csv'
-    df2 = pd.read_csv(input_file, header=0)
-    df2 = deviation_filtering(df2, 0.35)
-    output = r'F:/HistoryData/09newprocess_300_370/all09_300_370.csv'
-    df2.to_csv(output, index=False)
+    # csv_merge(output_path, save_file_name)
+    # input_file = r'F:/HistoryData/08newprocess_all1101/all08.csv'
+    # df2 = pd.read_csv(input_file, header=0)
+    # df2 = deviation_filtering(df2, 0.35)
+    # output = r'F:/HistoryData/08newprocess_all1101/all09_300_370.csv'
+    # df2.to_csv(output, index=False)

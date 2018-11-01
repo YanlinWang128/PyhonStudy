@@ -82,8 +82,12 @@ print(len(y_output[start_item - 1:end_item - 1]), y_output[start_item - 1:end_it
 # 计算 误差(均方误差)
 #  c = [a[i] - b[i] for i in range(len(a))]
 # sum([(y-m*x -b)**2 for x,y in zip(X,Y)])/len(X)
+
 predict_value = y
 primary_value =  y_output[start_item - 1:end_item - 1]
+print(len(predict_value), len(primary_value))
+
+
 error_value = math.sqrt(sum([(y-x)**2 for x,y in zip(predict_value,primary_value)])/len(predict_value))
 
 print(error_value)

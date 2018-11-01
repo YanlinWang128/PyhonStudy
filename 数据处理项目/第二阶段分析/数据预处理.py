@@ -291,11 +291,18 @@ if __name__ == "__main__":
     # caculated()
 
             # 添加新的 差值列
-    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_10_30.csv'
+    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_1101.csv'
 
     df2 = pd.read_csv(input_file, header=0)
+    # 原始数据, y,u
+    # df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
+    # df2['u_difference'] = (df2["u"] - (df2["u"].shift(1))).shift(-1)
+    #  _u1234_y
     df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
-    df2['u_difference'] = (df2["u"] - (df2["u"].shift(1))).shift(-1)
+    df2['u1_difference'] = (df2["u1"] - (df2["u1"].shift(1))).shift(-1)
+    df2['u2_difference'] = (df2["u2"] - (df2["u2"].shift(1))).shift(-1)
+    df2['u3_difference'] = (df2["u3"] - (df2["u3"].shift(1))).shift(-1)
+    df2['u4_difference'] = (df2["u4"] - (df2["u4"].shift(1))).shift(-1)
     df2.to_csv(input_file, index=False)
 
 

@@ -53,11 +53,11 @@ def try1try(a, d):
         print('y1列和 THRPRESS列数据个数不同')
     print(len(y), y[-100:])
 
-    df2.to_csv(r'C:/Users/Frank/Desktop/try1025/y_a_1_d_20_all08_1026.csv', index=False)
+    df2.to_csv(r'C:/Users/Frank/Desktop/try1025/y_a_0_1_d_100_all08_1101.csv', index=False)
 
 
 if __name__ == '__main__':
     start = time.clock()
-    try1try(1, 20)
+    try1try(0.1, 100)
     end = time.clock()
     print('Running time: %s Seconds' % (end - start))
