@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="19ed2566-c49f-4496-8a6d-6c7052ccf0e9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="E:/ComputerScience/Python/Python-algorithm/数据结构/0算法与算法评价/时间复杂度.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/0.pandas 属性.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
       <change type="MODIFICATION" beforePath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" afterPath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/错误处理.md" afterPath="$PROJECT_DIR$/错误处理.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MOVED" beforePath="E:/ComputerScience/Python/Python-algorithm/基础算法题.py" afterPath="E:/ComputerScience/Python/Python-algorithm/算法题/0基础算法题.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +20,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PyhonStudy$plot_liu.coverage" NAME="plot_liu Coverage Results" MODIFIED="1540777854193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$_.coverage" NAME="模型测试_增量 Coverage Results" MODIFIED="1540865807551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$data_filtering.coverage" NAME="data_filtering Coverage Results" MODIFIED="1541061508265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$theta.coverage" NAME="计算整月的theta Coverage Results" MODIFIED="1540780140092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$__.coverage" NAME="模型测试_增量_单入单出 Coverage Results" MODIFIED="1540880265536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$1__10minutes_to_pandas.coverage" NAME="1. 10minutes_to_pandas Coverage Results" MODIFIED="1541084165465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$y.coverage" NAME="y预测值计算 Coverage Results" MODIFIED="1540884268421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$bar.coverage" NAME="bar Coverage Results" MODIFIED="1539787085413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$Python_generator.coverage" NAME="Python_generator生成器 Coverage Results" MODIFIED="1540178078354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$5_Numpy_.coverage" NAME="5.Numpy计算_元素智能 Coverage Results" MODIFIED="1541076287570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$1200s.coverage" NAME="保留长度为1200s以上的段 Coverage Results" MODIFIED="1539678437241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$global_.coverage" NAME="global_不要用 Coverage Results" MODIFIED="1540129455825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$dict.coverage" NAME="dict Coverage Results" MODIFIED="1540953194935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$y_.coverage" NAME="y预测_基于原始数据值 Coverage Results" MODIFIED="1541062004661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$y_y.coverage" NAME="y预测值计算_y增量 Coverage Results" MODIFIED="1540781448329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$0_Numpy.coverage" NAME="0.Numpy属性 Coverage Results" MODIFIED="1541080082806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$8300.coverage" NAME="筛选8月功率300以上的 Coverage Results" MODIFIED="1540274567813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas/第二阶段分析" />
     <SUITE FILE_PATH="coverage/PyhonStudy$numpy_test.coverage" NAME="numpy_test Coverage Results" MODIFIED="1539594960773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$Python.coverage" NAME="Python高阶函数 Coverage Results" MODIFIED="1540387577964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$plot_liu.coverage" NAME="plot_liu Coverage Results" MODIFIED="1540777854193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析" />
     <SUITE FILE_PATH="coverage/PyhonStudy$9.coverage" NAME="计算测试集9月数据每段的精度 Coverage Results" MODIFIED="1540296375149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$2_Numpy.coverage" NAME="2.Numpy基本数据类型 Coverage Results" MODIFIED="1541052567605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$_.coverage" NAME="模型测试_增量 Coverage Results" MODIFIED="1540865807551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$24_y.coverage" NAME="24阶_y预测值计算 Coverage Results" MODIFIED="1540868376798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$data_filtering.coverage" NAME="data_filtering Coverage Results" MODIFIED="1541061508265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$format.coverage" NAME="format Coverage Results" MODIFIED="1540218507333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$CSV.coverage" NAME="合并CSV Coverage Results" MODIFIED="1540457906098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$visual_animation.coverage" NAME="visual_animation Coverage Results" MODIFIED="1539789090941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
@@ -37,64 +53,27 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$4_Numpy_.coverage" NAME="4.Numpy 索引切片拷贝 Coverage Results" MODIFIED="1541071697087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$3_.coverage" NAME="3.基本的数据可视化 Coverage Results" MODIFIED="1541071544140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta_y.coverage" NAME="整月theta_y增量 Coverage Results" MODIFIED="1540800927589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$theta.coverage" NAME="计算整月的theta Coverage Results" MODIFIED="1540780140092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$__.coverage" NAME="模型测试_增量_单入单出 Coverage Results" MODIFIED="1540880265536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$mat_test.coverage" NAME="mat_test Coverage Results" MODIFIED="1540882630055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sicpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$join.coverage" NAME="join字符串拼接 Coverage Results" MODIFIED="1540953660209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta_.coverage" NAME="整月theta_非增量 Coverage Results" MODIFIED="1540887483727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据辨识项目" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta____1_.coverage" NAME="整月theta_非增量_遗忘因子 (1) Coverage Results" MODIFIED="1540887317508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据辨识项目" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$y.coverage" NAME="y预测值计算 Coverage Results" MODIFIED="1540884268421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$bar.coverage" NAME="bar Coverage Results" MODIFIED="1539787085413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$Python_generator.coverage" NAME="Python_generator生成器 Coverage Results" MODIFIED="1540178078354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta__.coverage" NAME="整月theta_非增量_遗忘因子 Coverage Results" MODIFIED="1540887220682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_差分数据辨识项目" />
     <SUITE FILE_PATH="coverage/PyhonStudy$lena.coverage" NAME="lena Coverage Results" MODIFIED="1540995688630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy_cookbook" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$5_Numpy_.coverage" NAME="5.Numpy计算_元素智能 Coverage Results" MODIFIED="1541076287570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1540129751709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$7_Numpy_shape.coverage" NAME="7.Numpy shape Coverage Results" MODIFIED="1541079894793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$1200s.coverage" NAME="保留长度为1200s以上的段 Coverage Results" MODIFIED="1539678437241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$global_.coverage" NAME="global_不要用 Coverage Results" MODIFIED="1540129455825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$__y.coverage" NAME="方波测试_非增量_y预测值计算 Coverage Results" MODIFIED="1541062840599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$dict.coverage" NAME="dict Coverage Results" MODIFIED="1540953194935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$mat_to_csv.coverage" NAME="mat_to_csv Coverage Results" MODIFIED="1541058709059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sicpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1Numpy.coverage" NAME="1Numpy数组 Coverage Results" MODIFIED="1541080076763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$3D_Axes3D.coverage" NAME="3D图_Axes3D Coverage Results" MODIFIED="1539832503693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/PyhonStudy$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1539784710737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$y_.coverage" NAME="y预测_基于原始数据值 Coverage Results" MODIFIED="1541062004661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$y_y.coverage" NAME="y预测值计算_y增量 Coverage Results" MODIFIED="1540781448329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$.coverage" NAME="方波测试非增量 Coverage Results" MODIFIED="1541062765853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$0_Numpy.coverage" NAME="0.Numpy属性 Coverage Results" MODIFIED="1541080082806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$aa.coverage" NAME="aa Coverage Results" MODIFIED="1539658650702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherFile" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$8300.coverage" NAME="筛选8月功率300以上的 Coverage Results" MODIFIED="1540274567813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas/第二阶段分析" />
     <SUITE FILE_PATH="coverage/PyhonStudy$print_input_format.coverage" NAME="print_input_format Coverage Results" MODIFIED="1540809934124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="3.基本的数据可视化.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/3.基本的数据可视化.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#112#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4.Numpy 索引切片拷贝.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="49" />
-              <folding>
-                <element signature="e#116#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="错误处理.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="错误处理.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/错误处理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -103,6 +82,30 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0.pandas 属性.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pandas/0.pandas 属性.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#113#135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1. 10minutes_to_pandas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+              <folding>
+                <element signature="e#124#146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,21 +158,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib/plot.py">
+      <file leaf-file-name="1Numpy数组.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="-1357">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1Numpy数组.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
+      <file leaf-file-name="2.Numpy基本数据类型.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="896">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -209,8 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/文件夹空白值检测.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/空白值检测.py" />
         <option value="$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md" />
         <option value="$PROJECT_DIR$/Python优化.py" />
         <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/空白值填充_分割所需数据.py" />
@@ -260,6 +261,8 @@
         <option value="$PROJECT_DIR$/Numpy/6.基本高级运算.py" />
         <option value="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
         <option value="$PROJECT_DIR$/错误处理.md" />
+        <option value="$PROJECT_DIR$/Pandas/0.pandas 属性.py" />
+        <option value="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
       </list>
     </option>
   </component>
@@ -315,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="matplotlib" />
+              <option name="myItemId" value="Pandas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,18 +334,18 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pythoncode\PyhonStudy" />
+      <recent name="E:\Pythoncode\PyhonStudy\grammar" />
+      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目" />
+      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\pandas" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2" />
       <recent name="E:\Pythoncode\PyhonStudy\数据分析_差分数据辨识项目" />
       <recent name="E:\Pythoncode\PyhonStudy\sicpy" />
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\numpy" />
       <recent name="E:\Pythoncode\PyhonStudy\matplotlib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Pythoncode\PyhonStudy" />
-      <recent name="E:\Pythoncode\PyhonStudy\grammar" />
-      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目" />
-      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\pandas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,26 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.0.Numpy属性">
-    <configuration default="false" name="4.Numpy 索引切片拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyhonStudy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.1. 10minutes_to_pandas">
     <configuration default="false" name="5.Numpy计算_元素智能" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -448,6 +432,25 @@
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1. 10minutes_to_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyhonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -602,19 +605,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.4.Numpy 索引切片拷贝" />
-      <item index="1" class="java.lang.String" itemvalue="Python.5.Numpy计算_元素智能" />
-      <item index="2" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1Numpy数组" />
-      <item index="4" class="java.lang.String" itemvalue="Python.0.Numpy属性" />
+      <item index="0" class="java.lang.String" itemvalue="Python.5.Numpy计算_元素智能" />
+      <item index="1" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1Numpy数组" />
+      <item index="3" class="java.lang.String" itemvalue="Python.0.Numpy属性" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1. 10minutes_to_pandas" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.0.Numpy属性" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1Numpy数组" />
-        <item index="2" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5.Numpy计算_元素智能" />
-        <item index="4" class="java.lang.String" itemvalue="Python.4.Numpy 索引切片拷贝" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1. 10minutes_to_pandas" />
+        <item index="1" class="java.lang.String" itemvalue="Python.0.Numpy属性" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1Numpy数组" />
+        <item index="3" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
+        <item index="4" class="java.lang.String" itemvalue="Python.5.Numpy计算_元素智能" />
       </list>
     </recent_temporary>
   </component>
@@ -662,9 +665,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3510759" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19951633" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10675966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19313304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17489271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -692,20 +695,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/plot_liu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib/scatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/文件夹空白值检测.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1003,14 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1059,14 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-636">
@@ -1105,6 +1078,42 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pandas/0.pandas 属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#113#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1357">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="e#124#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
