@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="19ed2566-c49f-4496-8a6d-6c7052ccf0e9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="E:/ComputerScience/Python/Python-algorithm/数据结构/0算法与算法评价/时间复杂度.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
       <change type="MODIFICATION" beforePath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" afterPath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Numpy/1Numpy数组.py" afterPath="$PROJECT_DIR$/Numpy/1Numpy数组.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Numpy/8.数组排序.py" afterPath="$PROJECT_DIR$/Numpy/8.数组排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/错误处理.md" afterPath="$PROJECT_DIR$/错误处理.md" />
       <change type="MOVED" beforePath="E:/ComputerScience/Python/Python-algorithm/基础算法题.py" afterPath="E:/ComputerScience/Python/Python-algorithm/算法题/0基础算法题.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy/6.基本简化运算.py" afterPath="$PROJECT_DIR$/Numpy/6.基本高级运算.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,12 +94,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="错误处理.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="错误处理.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/错误处理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="96">
-                <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <first_editor relative-caret-position="128">
+                <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -179,7 +175,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0.Numpy属性.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0.Numpy属性.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Numpy/0.Numpy属性.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
@@ -256,7 +252,6 @@
         <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算.py" />
         <option value="$PROJECT_DIR$/Numpy/3.基本的数据可视化.py" />
         <option value="$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py" />
-        <option value="$PROJECT_DIR$/错误处理.md" />
         <option value="$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py" />
         <option value="$PROJECT_DIR$/Numpy/6.基本简化运算.py" />
         <option value="$PROJECT_DIR$/Numpy/7.Numpy shape.py" />
@@ -264,6 +259,7 @@
         <option value="$PROJECT_DIR$/Numpy/1Numpy数组.py" />
         <option value="$PROJECT_DIR$/Numpy/6.基本高级运算.py" />
         <option value="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
+        <option value="$PROJECT_DIR$/错误处理.md" />
       </list>
     </option>
   </component>
@@ -668,7 +664,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19951633" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2274678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10675966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17489271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1033,17 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/错误处理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -1109,6 +1094,17 @@
           <folding>
             <element signature="e#111#133#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/错误处理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
