@@ -18,12 +18,13 @@ print(type(a))
 # 创建 Numpy 数组
 ## 1. 手动建立数组
 a = np.array([0, 1, 2, 3])  # 一维数组
-print(type(a), a.ndim, a.shape, len(a), a)
+print(type(a), a.ndim, a.shape, len(a), a.size, a)
 
 b = np.array([[0, 1, 2], [3, 4, 5]])  # 2 x 3 array # 二维数组
 print('-----' * 10)
 """
 type(a), a.ndim, a.shape, len(a):  类型, 维度, 形状, 元素个数
+a.size 返回元素个数
 关于形状返回一个元组, 可取维度值(行列值)
 a.shape[0] 第一维
 a.shape[1] 第二维,如果有的话(一位数组只有shape[0])

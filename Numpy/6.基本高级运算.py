@@ -1,7 +1,7 @@
 # @Time    : 2018/11/1 20:52
 # @Author  : Yanlin Wang
 # @Email   : wangyl_a@163.com
-# @File    : 6.基本简化运算.py
+# @File    : 6.基本高级运算.py
 
 from time import clock
 import numpy as np
