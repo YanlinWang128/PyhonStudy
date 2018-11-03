@@ -196,6 +196,7 @@ def data_preprocession():
     df2.to_csv(output, index=False)
     """
 
+
 # 对文件夹内的所有段(或整文件), 计算difference差值
 def process_add_difference(path):
     """
@@ -221,6 +222,7 @@ def process_add_difference(path):
         # output_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
         # input_file = r'F:/HistoryData/08newprocess_mw300/all08.csv'
 
+
 # 绘图分析列
 def plot_column():
     """
@@ -238,6 +240,7 @@ def plot_column():
     analysis_list = [0.5, 1, 2, 3, 4, 5, 6, 7, 10, 15, 20, 30, 40]
     column_analysis(y, analysis_list)
     plot_difference_value(y, 'u1_difference')
+
 
 # 找到表格中异常值(比如大于30的值)得位置
 def value_index_find():
@@ -260,20 +263,47 @@ def main():
     input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
     df2 = pd.read_csv(input_file, header=0)
     print(len(df2.index))
-    y = df2['u4_difference'].tolist()
+    u4 = df2['u4_difference'].tolist()
+    u1 = df2['u1_difference'].tolist()
+
     # x = np.linspace(1, len(y), len(y))
-    analysis_list = [0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1,1.2,1.5]
-    column_analysis(y, analysis_list)
-    plot_difference_value(y, 'u4_difference')
+    analysis_list_u4 = [x / 20 for x in range(1,41)]
+    analysis_list_u1 = [x / 10 for x in range(1,81)]
+
+    column_analysis(u1, analysis_list_u1)
+    # column_analysis(u4, analysis_list_u4)
+
+    print('---' * 30)
+
+
+
+    # plot_difference_value(y, 'u4_difference')
 
 
 def time_break_difference_to_0():
     input_file = r'F:/HistoryData/08newprocess_mw300/all08_caculated.csv'
     df2 = pd.read_csv(input_file, header=0)
     print(len(df2.index))
-    for i in range(1, len(df2.index)-1):
+    for i in range(1, len(df2.index) - 1):
         if pd.Timestamp(df2.date[i]) - pd.Timestamp(df2.date[i - 1]) != dt.timedelta(seconds=1):
             df2.loc[i - 1, 'u4_difference'] = 0
+    df2.to_csv(input_file, index=False)
+
+
+def shift():
+    # 添加新的 差值列
+    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_1102.csv'
+
+    df2 = pd.read_csv(input_file, header=0)
+    # 原始数据, y,u
+    df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
+    df2['u_difference'] = (df2["u"] - (df2["u"].shift(1))).shift(-1)
+    #  _u1234_y
+    # df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
+    # df2['u1_difference'] = (df2["u1"] - (df2["u1"].shift(1))).shift(-1)
+    # df2['u2_difference'] = (df2["u2"] - (df2["u2"].shift(1))).shift(-1)
+    # df2['u3_difference'] = (df2["u3"] - (df2["u3"].shift(1))).shift(-1)
+    # df2['u4_difference'] = (df2["u4"] - (df2["u4"].shift(1))).shift(-1)
     df2.to_csv(input_file, index=False)
 
 
@@ -283,32 +313,15 @@ if __name__ == "__main__":
     # value_index_find()
     # plot_column()
 
-                 # u4_difference 置0,绘图
+    # u4_difference 置0,绘图
     # time_break_difference_to_0()
-    # main()
+    main()
 
 
     # caculated()
-
-            # 添加新的 差值列
-    input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_1101.csv'
-
-    df2 = pd.read_csv(input_file, header=0)
-    # 原始数据, y,u
-    # df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
-    # df2['u_difference'] = (df2["u"] - (df2["u"].shift(1))).shift(-1)
-    #  _u1234_y
-    df2['y_difference'] = (df2["y"] - (df2["y"].shift(1))).shift(-1)
-    df2['u1_difference'] = (df2["u1"] - (df2["u1"].shift(1))).shift(-1)
-    df2['u2_difference'] = (df2["u2"] - (df2["u2"].shift(1))).shift(-1)
-    df2['u3_difference'] = (df2["u3"] - (df2["u3"].shift(1))).shift(-1)
-    df2['u4_difference'] = (df2["u4"] - (df2["u4"].shift(1))).shift(-1)
-    df2.to_csv(input_file, index=False)
-
 
 """
 u1: 0.5
 一个采样周期输入的变化量大于0.1
 u4: 0.1
 """
-

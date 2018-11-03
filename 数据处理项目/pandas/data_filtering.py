@@ -46,7 +46,7 @@ def csv_data_filtering(input_file, output_path):
     df2['u3'] = (df2['HBKCT101'] + df2['HBKCT201']) / 2
     df2['LYTFW'] = (df2['LABCT301'] + df2['LABCT302']) / 2
 
-    df2 = df2[['date','LAECF411', 'u2', 'u3', 'TOTFUELF', 'T12A041A']]
+    df2 = df2[['date', 'LAECF411', 'JT66801A', 'u2', 'u3', 'TOTFUELF', 'T12A041A']]
     outfile = df2
     if (outfile.empty):  # 没有数据剩余
         print("Already processed, no eligible data ")
@@ -168,6 +168,8 @@ def blank_detect(df2):
     blank_numbers = int(df2.isnull().any().sum())
     print("No blank" if (blank_numbers == 0) else "All is {} blank".format(blank_numbers))
     return blank_numbers
+
+
 def data1101():
     dir_path = r'F:/HistoryData/08new/'
     output_path = dir_path[:-1] + 'process_all1101/'
@@ -180,6 +182,7 @@ def data1101():
     for parent, dir_names, file_names in os.walk(dir_path):
         for filename in file_names:
             csv_data_filtering(os.path.join(parent, filename), os.path.join(output_path, filename))
+
 
 if __name__ == "__main__":
     data1101()
