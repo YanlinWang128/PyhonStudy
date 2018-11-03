@@ -36,7 +36,7 @@ def read_mat():
     print(y)
     dfdata = pd.DataFrame(y['y'], columns=['y'])
     dfdata['u'] = u['u']
-    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_1101.csv', index=False)
+    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_1102.csv', index=False)
 
 def read_mat_u1234_y():
     u1 = scipy.io.loadmat(r'C:/Users/Frank/Desktop/tongliu/u1.mat')
@@ -51,10 +51,10 @@ def read_mat_u1234_y():
     dfdata['u2'] = u2['u2']
     dfdata['u3'] = u3['u3']
     dfdata['u4'] = u4['u4']
-    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_1101.csv', index=False)
+    dfdata.to_csv(r'C:/Users/Frank/Desktop/tongliu/mat_data_1102.csv', index=False)
 if __name__ == '__main__':
-    # read_mat()
-    read_mat_u1234_y()
+    read_mat()
+    # read_mat_u1234_y()
 
 """
 读写 mat 格式数据(字典格式)

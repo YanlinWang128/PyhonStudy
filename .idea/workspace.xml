@@ -6,11 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="19ed2566-c49f-4496-8a6d-6c7052ccf0e9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="E:/ComputerScience/Python/Python-algorithm/数据结构/0算法与算法评价/时间复杂度.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/0.pandas 属性.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/3. pandas if_then.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小实践/sa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值_参数扩展.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于预测值.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试_非增量_y预测值计算_基于原始值_单输入.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于原始值_可变参量.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于预测值_可变参量.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于预测值_四输入.py" />
       <change type="MODIFICATION" beforePath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" afterPath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" afterPath="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sicpy/mat_to_csv.py" afterPath="$PROJECT_DIR$/sicpy/mat_to_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据处理项目/numpy/y预测_基于原始数据值.py" afterPath="$PROJECT_DIR$/数据处理项目/numpy/y预测_基于原始数据值.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py" afterPath="$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py" />
       <change type="MOVED" beforePath="E:/ComputerScience/Python/Python-algorithm/基础算法题.py" afterPath="E:/ComputerScience/Python/Python-algorithm/算法题/0基础算法题.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算.py" afterPath="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于原始值_4输入.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +34,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PyhonStudy$plot_liu.coverage" NAME="plot_liu Coverage Results" MODIFIED="1540777854193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$_.coverage" NAME="模型测试_增量 Coverage Results" MODIFIED="1540865807551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$data_filtering.coverage" NAME="data_filtering Coverage Results" MODIFIED="1541061508265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$_.coverage" NAME="单输入预测对比_基于预测值 Coverage Results" MODIFIED="1541144898434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$data_filtering.coverage" NAME="data_filtering Coverage Results" MODIFIED="1541134663745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$___.coverage" NAME="方波测试非增量_单输入_基于预测值_可变参量 Coverage Results" MODIFIED="1541158077091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$sa.coverage" NAME="sa Coverage Results" MODIFIED="1541152943683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小实践" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta.coverage" NAME="计算整月的theta Coverage Results" MODIFIED="1540780140092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$__.coverage" NAME="模型测试_增量_单入单出 Coverage Results" MODIFIED="1540880265536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$__.coverage" NAME="方波测试非增量_单输入_可变参量 Coverage Results" MODIFIED="1541147291880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$3__pandas_if_then.coverage" NAME="3. pandas if_then Coverage Results" MODIFIED="1541121371577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$__y__.coverage" NAME="方波测试_非增量_y预测值计算_基于原始值_单输入 Coverage Results" MODIFIED="1541126606506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1__10minutes_to_pandas.coverage" NAME="1. 10minutes_to_pandas Coverage Results" MODIFIED="1541084165465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$y.coverage" NAME="y预测值计算 Coverage Results" MODIFIED="1540884268421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$bar.coverage" NAME="bar Coverage Results" MODIFIED="1539787085413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
@@ -33,7 +50,7 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$1200s.coverage" NAME="保留长度为1200s以上的段 Coverage Results" MODIFIED="1539678437241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$global_.coverage" NAME="global_不要用 Coverage Results" MODIFIED="1540129455825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$dict.coverage" NAME="dict Coverage Results" MODIFIED="1540953194935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$y_.coverage" NAME="y预测_基于原始数据值 Coverage Results" MODIFIED="1541062004661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$y_.coverage" NAME="y预测_基于原始数据值 Coverage Results" MODIFIED="1541125536458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$y_y.coverage" NAME="y预测值计算_y增量 Coverage Results" MODIFIED="1540781448329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$0_Numpy.coverage" NAME="0.Numpy属性 Coverage Results" MODIFIED="1541080082806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$8300.coverage" NAME="筛选8月功率300以上的 Coverage Results" MODIFIED="1540274567813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas/第二阶段分析" />
@@ -41,6 +58,7 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$Python.coverage" NAME="Python高阶函数 Coverage Results" MODIFIED="1540387577964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$9.coverage" NAME="计算测试集9月数据每段的精度 Coverage Results" MODIFIED="1540296375149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$2_Numpy.coverage" NAME="2.Numpy基本数据类型 Coverage Results" MODIFIED="1541052567605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$__y_.coverage" NAME="方波测试_非增量_y预测值计算_基于原始值 Coverage Results" MODIFIED="1541126081531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$24_y.coverage" NAME="24阶_y预测值计算 Coverage Results" MODIFIED="1540868376798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$format.coverage" NAME="format Coverage Results" MODIFIED="1540218507333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$CSV.coverage" NAME="合并CSV Coverage Results" MODIFIED="1540457906098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
@@ -61,84 +79,43 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$lena.coverage" NAME="lena Coverage Results" MODIFIED="1540995688630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy_cookbook" />
     <SUITE FILE_PATH="coverage/PyhonStudy$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1540129751709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$7_Numpy_shape.coverage" NAME="7.Numpy shape Coverage Results" MODIFIED="1541079894793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$__y.coverage" NAME="方波测试_非增量_y预测值计算 Coverage Results" MODIFIED="1541062840599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$mat_to_csv.coverage" NAME="mat_to_csv Coverage Results" MODIFIED="1541058709059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sicpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$__y.coverage" NAME="方波测试_非增量_y预测值计算 Coverage Results" MODIFIED="1541126089350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$mat_to_csv.coverage" NAME="mat_to_csv Coverage Results" MODIFIED="1541126355093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sicpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1Numpy.coverage" NAME="1Numpy数组 Coverage Results" MODIFIED="1541080076763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$3D_Axes3D.coverage" NAME="3D图_Axes3D Coverage Results" MODIFIED="1539832503693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/PyhonStudy$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1539784710737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$.coverage" NAME="方波测试非增量 Coverage Results" MODIFIED="1541062765853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$.coverage" NAME="数据预处理 Coverage Results" MODIFIED="1541151281154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析" />
     <SUITE FILE_PATH="coverage/PyhonStudy$aa.coverage" NAME="aa Coverage Results" MODIFIED="1539658650702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherFile" />
     <SUITE FILE_PATH="coverage/PyhonStudy$print_input_format.coverage" NAME="print_input_format Coverage Results" MODIFIED="1540809934124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="错误处理.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/错误处理.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="128">
-                <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="csv_data_filtering.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/csv_data_filtering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="761">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0.pandas 属性.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pandas/0.pandas 属性.py">
+      <file leaf-file-name="方波测试非增量.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#113#135#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="448">
+              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1. 10minutes_to_pandas.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py">
+      <file leaf-file-name="单输入预测对比_基于原始值.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-              <folding>
-                <element signature="e#124#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.Numpy计算_元素智能.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-636">
-              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-              <folding>
-                <element signature="e#116#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.基本高级运算.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/6.基本高级运算.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding>
-                <element signature="e#110#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.Numpy shape.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/7.Numpy shape.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="1613">
+              <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
               <folding>
                 <element signature="e#115#137#0" expanded="true" />
               </folding>
@@ -146,46 +123,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="8.数组排序.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/8.数组排序.py">
+      <file leaf-file-name="单输入预测对比_基于原始值_参数扩展.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值_参数扩展.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="e#108#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1Numpy数组.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1357">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="4094">
+              <caret line="173" column="4" lean-forward="true" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.Numpy基本数据类型.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
+      <file leaf-file-name="方波测试非增量_单输入_基于预测值_可变参量.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于预测值_可变参量.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="1259">
+              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0.Numpy属性.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/0.Numpy属性.py">
+      <file leaf-file-name="sa.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小实践/sa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#111#133#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="方波测试非增量_单输入_基于原始值_可变参量.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于原始值_可变参量.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1518">
+              <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数据筛选.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据筛选.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数据预处理.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="270" column="52" lean-forward="true" selection-start-line="270" selection-start-column="52" selection-end-line="270" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="列表推导式.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammar/列表推导式.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,20 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据处理项目/pandas/pandas dataframe 数据操作.md" />
-        <option value="$PROJECT_DIR$/Python优化.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/空白值填充_分割所需数据.py" />
-        <option value="$PROJECT_DIR$/grammar/pandas dataframe 数据操作.md" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据筛选.py" />
-        <option value="$PROJECT_DIR$/测试.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/plot_liu.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/整月theta_y增量.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/numpy/y预测值计算.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/y预测值计算_y增量.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/numpy/计算整月的theta.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/模型测试.py" />
-        <option value="$PROJECT_DIR$/grammar/print_input_format.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/模型测试_增量.py" />
         <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/模型测试_增量_单入单出.py" />
         <option value="$PROJECT_DIR$/sicpy/mat_test.py" />
         <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算.py" />
@@ -245,12 +234,6 @@
         <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据叠加实验.py" />
         <option value="$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py" />
         <option value="$PROJECT_DIR$/英语好好学.md" />
-        <option value="$PROJECT_DIR$/sicpy/mat_to_csv.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/numpy/y预测_基于原始数据值.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量.py" />
-        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算.py" />
         <option value="$PROJECT_DIR$/Numpy/3.基本的数据可视化.py" />
         <option value="$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py" />
         <option value="$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py" />
@@ -263,6 +246,26 @@
         <option value="$PROJECT_DIR$/错误处理.md" />
         <option value="$PROJECT_DIR$/Pandas/0.pandas 属性.py" />
         <option value="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
+        <option value="$PROJECT_DIR$/Pandas/3. pandas if_then.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/numpy/y预测_基于原始数据值.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于原始值.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于原始值_单输入.py" />
+        <option value="$PROJECT_DIR$/sicpy/mat_to_csv.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量_单输入.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试_非增量_y预测值计算_基于原始值_单输入.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于预测值.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值_参数扩展.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_可变参量.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于预测值_四输入.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于原始值_可变参量.py" />
+        <option value="$PROJECT_DIR$/小实践/sa.py" />
+        <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于预测值_可变参量.py" />
       </list>
     </option>
   </component>
@@ -318,7 +321,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pandas" />
+              <option name="myItemId" value="数据辨识项目" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="数据处理项目" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二阶段分析" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="数据处理项目" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二阶段分析" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="差分方程2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="数据处理项目" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二阶段分析" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="差分方程2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1102" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="数据处理项目" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="小实践" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,18 +431,19 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Pythoncode\PyhonStudy" />
-      <recent name="E:\Pythoncode\PyhonStudy\grammar" />
-      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目" />
-      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\pandas" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2\1102" />
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2" />
       <recent name="E:\Pythoncode\PyhonStudy\数据分析_差分数据辨识项目" />
       <recent name="E:\Pythoncode\PyhonStudy\sicpy" />
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\numpy" />
-      <recent name="E:\Pythoncode\PyhonStudy\matplotlib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2\1102" />
+      <recent name="E:\Pythoncode\PyhonStudy" />
+      <recent name="E:\Pythoncode\PyhonStudy\grammar" />
+      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目" />
+      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\pandas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,97 +458,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1. 10minutes_to_pandas">
-    <configuration default="false" name="5.Numpy计算_元素智能" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.方波测试非增量_单输入_基于预测值_可变参量">
+    <configuration default="false" name="方波测试非增量_单输入_可变参量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py" />
+      <option name="SCRIPT_NAME" value="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2\1102\方波测试非增量_单输入_基于原始值_可变参量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="7.Numpy shape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="方波测试非增量_单输入_基于预测值_可变参量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/7.Numpy shape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于预测值_可变参量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="1Numpy数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="数据预处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/第二阶段分析" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/1Numpy数组.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="0.Numpy属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="sa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/小实践" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/小实践/sa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="1. 10minutes_to_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="方波测试非增量_单输入_基于原始值_可变参量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于原始值_可变参量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -605,19 +703,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.Numpy计算_元素智能" />
-      <item index="1" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1Numpy数组" />
-      <item index="3" class="java.lang.String" itemvalue="Python.0.Numpy属性" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1. 10minutes_to_pandas" />
+      <item index="0" class="java.lang.String" itemvalue="Python.方波测试非增量_单输入_可变参量" />
+      <item index="1" class="java.lang.String" itemvalue="Python.方波测试非增量_单输入_基于预测值_可变参量" />
+      <item index="2" class="java.lang.String" itemvalue="Python.数据预处理" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sa" />
+      <item index="4" class="java.lang.String" itemvalue="Python.方波测试非增量_单输入_基于原始值_可变参量" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1. 10minutes_to_pandas" />
-        <item index="1" class="java.lang.String" itemvalue="Python.0.Numpy属性" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1Numpy数组" />
-        <item index="3" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.Numpy计算_元素智能" />
+        <item index="0" class="java.lang.String" itemvalue="Python.方波测试非增量_单输入_基于预测值_可变参量" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sa" />
+        <item index="2" class="java.lang.String" itemvalue="Python.方波测试非增量_单输入_基于原始值_可变参量" />
+        <item index="3" class="java.lang.String" itemvalue="Python.数据预处理" />
+        <item index="4" class="java.lang.String" itemvalue="Python.方波测试非增量_单输入_可变参量" />
       </list>
     </recent_temporary>
   </component>
@@ -659,15 +757,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3510759" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20498301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19951633" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19313304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10622317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17489271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -695,142 +792,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/文件夹空白值检测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/print_input_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/模型测试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算_1000条.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/计算整月的theta_非增量_添加遗忘因子.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/整月theta_y增量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/模型测试_增量_单入单出.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/y预测值计算.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/模型测试_增量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据辨识项目/整月theta_非增量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量_一阶.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sicpy/mat_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/Python高阶函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="17" column="96" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/切片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/sort()_sorted()_字符串序_数字序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/lambda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grammar/join字符串拼接.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -843,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,15 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/列表推导式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,7 +820,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="384">
             <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -879,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,17 +837,8 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="483">
             <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sicpy/mat_to_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,53 +847,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据叠加实验.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="304" column="48" lean-forward="false" selection-start-line="304" selection-start-column="48" selection-end-line="304" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据筛选.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="189" column="22" lean-forward="true" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="22" />
-          <folding>
-            <element signature="e#1862#2856#0" expanded="false" />
-            <element signature="e#2891#3407#0" expanded="false" />
-            <element signature="e#5731#6015#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/y预测_基于原始数据值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,23 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +864,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="64">
             <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -996,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,9 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#112#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,58 +887,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#116#138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/7.Numpy shape.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="416">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
-            <element signature="e#115#137#0" expanded="true" />
+            <element signature="e#115#137#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/8.数组排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="704">
           <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <element signature="e#108#130#0" expanded="true" />
+            <element signature="e#108#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-636">
-          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+        <state relative-caret-position="1792">
+          <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
           <folding>
-            <element signature="e#116#138#0" expanded="true" />
+            <element signature="e#116#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/6.基本高级运算.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="1664">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
           <folding>
-            <element signature="e#110#132#0" expanded="true" />
+            <element signature="e#110#132#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/0.Numpy属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="704">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#111#133#0" expanded="true" />
+            <element signature="e#111#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1074,7 +944,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="128">
-            <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1083,37 +953,267 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="992">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/0.pandas 属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="448">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#113#135#0" expanded="true" />
+            <element signature="e#113#135#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1357">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/1. 10minutes_to_pandas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="192">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pandas/3. pandas if_then.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
-            <element signature="e#124#146#0" expanded="true" />
+            <element signature="e#118#140#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于原始值_4输入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sicpy/mat_to_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试_非增量_y预测值计算_基于原始值_单输入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/单文件空白值检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据辨识项目/整月theta_非增量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/空白值填充_分割所需数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/模型测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据叠加实验.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-515">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/numpy/y预测_基于原始数据值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="e#1875#2869#0" expanded="false" />
+            <element signature="e#2904#3420#0" expanded="false" />
+            <element signature="e#5744#6028#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算_1000条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/整月theta_y增量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量_一阶.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_可变.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于预测值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/csv_data_filtering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据筛选.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar/列表推导式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="270" column="52" lean-forward="true" selection-start-line="270" selection-start-column="52" selection-end-line="270" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1613">
+          <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="e#115#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值_参数扩展.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4094">
+          <caret line="173" column="4" lean-forward="true" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小实践/sa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于原始值_可变参量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于预测值_四输入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于预测值_可变参量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1259">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -15,7 +15,7 @@ import math
 # # 修改 递归深度,指标不治本,
 # sys.setrecursionlimit(1000000) #例如这里设置为一百万
 # 最原始的数据打开有中文,按照gbk打开
-input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_1101.csv'
+input_file = r'C:/Users/Frank/Desktop/tongliu/mat_data_1102.csv'
 
 df2 = pd.read_csv(input_file, header=0)
 print(df2.columns.values.tolist())
@@ -25,15 +25,15 @@ y_output = df2['y'].tolist()
 difference_length = len(df2.index) - 1  # difference 长度
 print(difference_length)
 
-# u1_difference = df2['u_difference'].tolist()
-#
-# u2_difference = [0] * difference_length
-# u3_difference = [0] * difference_length
-# u4_difference = [0] * difference_length
-u1_difference = df2['u1_difference'].tolist()
-u2_difference = df2['u2_difference'].tolist()
-u3_difference = df2['u3_difference'].tolist()
-u4_difference = df2['u4_difference'].tolist()
+u1_difference = df2['u_difference'].tolist()
+
+u2_difference = [0] * difference_length
+u3_difference = [0] * difference_length
+u4_difference = [0] * difference_length
+# u1_difference = df2['u1_difference'].tolist()
+# u2_difference = df2['u2_difference'].tolist()
+# u3_difference = df2['u3_difference'].tolist()
+# u4_difference = df2['u4_difference'].tolist()
 
 # 新建指定尺寸,全为 10**8 值得列表np.full(tuple(x, y), value)
 # p = np.full((25, 25), 10 ** 8)
@@ -54,7 +54,7 @@ d1 = d2 = d3 = d4 = 20
 #          0.0039830257801174605, 0.008527858527091375, 0.0009007565552914656]
 
 # p重置 8月
-theta = [-1.812024541833067, 0.10404043999009101, 0.749915335797866, 0.43910059080110575, -0.48103182804632805, -4.494698487992597e-08, 0.031511426041795625, 0.004809593049759339, -0.017665898738567946, -0.015715561403758568, -4.508851257469083e-08, 0.03151142620377016, 0.004809559294596981, -0.017665899861469457, -0.015715581577695245, -4.505243987549534e-08, 0.0315114260619676, 0.0048095666365651595, -0.01766588648695774, -0.01571553040440604, -4.483687900132392e-08, 0.0315114260075615, 0.00480962190695222, -0.017665894070616535, -0.015715582352740943]
+theta = [-1.7028312516445685, -0.07480296496442014, 0.7220634732026288, 0.5982655166312942, -0.5426947732164331, 3.074454800615896e-12, 0.0012091042997661502, 0.0026199396225510354, 0.002128107268327021, 0.0007014104813494111, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 print(len(theta))
 # theta = [-0.9029480111671384, -0.16503698879737178, -0.03424944594539166, 0.07284690911381228, 0.02938588806486347,
 #          -0.0014456847406357379, 0.002115590437710819, 0.0010846521986086497, 0.0008478601902866012,
@@ -75,14 +75,13 @@ end_item = len(df2.index) - start_item
 # start_item = 20
 
 # y(k)--->  y_index_5 = start_item
-y = [(y_output[start_item - 6]), (y_output[start_item - 5]), (y_output[start_item - 4]), (y_output[start_item - 3]),
-     (y_output[start_item - 2])]
+# y = [(y_output[start_item - 6]), (y_output[start_item - 5]), (y_output[start_item - 4]), (y_output[start_item - 3]),
+#      (y_output[start_item - 2])]
 
-
-def y_predict(k, y):
-    b = k - start_item
-    y_k = -theta[0] * y[4 + b] - theta[1] * y[b + 3] - theta[2] * y[b + 2] - theta[3] * y[
-        b + 1] - theta[4] * y[b] + theta[5] * u1_difference[k - 1 - (d1 - 1) - 2] + theta[6] * u1_difference[
+y = []
+def y_predict(k):
+    # b = k - start_item
+    y_k =-theta[0] * y_output[k-2] - theta[1] * y_output[k-3] - theta[2] *  y_output[k-4] - theta[3] *  y_output[k-5] - theta[4] *  y_output[k-6] + theta[5] * u1_difference[k - 1 - (d1 - 1) - 2] + theta[6] * u1_difference[
         k - 1 - (d1) - 2] + theta[7] * u1_difference[k - 1 - (d1 + 1) - 2] + theta[8] * u1_difference[
         k - 1 - (d1 + 2) - 2] + theta[9] * u1_difference[k - 1 - (d1 + 3) - 2] + theta[10] * u2_difference[
         k - 1 - (d2 - 1) - 2] + theta[11] * u2_difference[
@@ -94,7 +93,7 @@ def y_predict(k, y):
         k - 1 - (d4 - 1) - 2] + theta[21] * u4_difference[
         k - 1 - (d4) - 2] + theta[22] * u4_difference[k - 1 - (d4 + 1) - 2] + theta[23] * u4_difference[
         k - 1 - (d4 + 2) - 2] + theta[24] * u4_difference[k - 1 - (d4 + 3) - 2]
-    y.append(y_k)
+    # y.append(y_k)
     return y_k
 
 
@@ -102,9 +101,9 @@ def y_predict(k, y):
 # print(y)
 # print(end_item -start_item, )
 for item in range(start_item, end_item):
-    y_predict(item, y)
+    y.append(y_predict(item))
 # print(y)
-print(y[5:10])
+# print(y[5:10])
 # 够不到,所以全部取了数据
 # print(len(y[5:]), y[5:])
 # print(len(y_output[start_item - 1:end_item - 1]), y_output[start_item - 1:end_item - 1])
@@ -112,14 +111,21 @@ print(y[5:10])
 # 计算 误差(均方误差)
 #  c = [a[i] - b[i] for i in range(len(a))]
 # sum([(y-m*x -b)**2 for x,y in zip(X,Y)])/len(X)
-predict_value = y[5:(5 +  end_item -start_item)]
+predict_value = y
 primary_value = y_output[start_item - 1:end_item - 1]
 
 print(len(predict_value), len(primary_value))
+def error_caculate(primary_value, predict_value):
+    return 1 - (np.std(np.array(predict_value[1:]) - np.array(primary_value[:-1]) -(np.array(primary_value[1:] - np.array(primary_value[:-1]))),  ddof = 1) /np.std(np.array(primary_value[1:])- np.array(primary_value[:-1]),  ddof = 1))
+    # error_value = math.sqrt(sum([(y - x) ** 2 for x, y in zip(predict_value, primary_value)]) / len(predict_value))
+print(error_caculate(primary_value, predict_value))
 
-error_value = math.sqrt(sum([(y - x) ** 2 for x, y in zip(predict_value, primary_value)]) / len(predict_value))
 
-print(error_value)
+
+
+
+
+
 
 # x = np.linspace(1, end_item - start_item, end_item - start_item)
 # print(x)

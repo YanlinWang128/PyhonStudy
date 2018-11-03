@@ -85,12 +85,12 @@ print(len(y_output[start_item - 1:end_item - 1]), y_output[start_item - 1:end_it
 
 predict_value = y
 primary_value =  y_output[start_item - 1:end_item - 1]
+
 print(len(predict_value), len(primary_value))
-
-
-error_value = math.sqrt(sum([(y-x)**2 for x,y in zip(predict_value,primary_value)])/len(predict_value))
-
-print(error_value)
+def error_caculate(primary_value, predict_value):
+    return 1 - (np.std(np.array(predict_value[1:]) - np.array(primary_value[:-1]) -(np.array(primary_value[1:] - np.array(primary_value[:-1]))),  ddof = 1) / np.std(np.array(primary_value[1:])- np.array(primary_value[:-1]),  ddof = 1))
+    # error_value = math.sqrt(sum([(y - x) ** 2 for x, y in zip(predict_value, primary_value)]) / len(predict_value))
+print(error_caculate(primary_value, predict_value))
 
 
 # x = np.linspace(1, end_item - start_item, end_item - start_item)
