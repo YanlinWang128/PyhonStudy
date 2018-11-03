@@ -24,10 +24,7 @@ print(df)
 # 查看数据
 print(df.head()) # df.head() 查看前5条数据
 
-# if-then
-df.loc[df.AAA >= 5,'BBB'] = -1
-df.loc[df.AAA >= 5,['BBB','CCC']] = 555
-df['logic'] = np.where(df['AAA'] > 5,'high','low')
+
 start = clock()
 
 end = clock()
