@@ -5,7 +5,14 @@
 
 print("hello,world")
 
-# print  结束符end= 默认是换行, 可以改为空,则连续输出
+
+# print 中间分隔符 sep
+print('www', 'python', 'org', sep='.')  # 以 . 分割
+print('www', 'python', 'org', sep='\n')  # 以 换行 分割
+
+
+
+# print  结束符end= 默认是结束后换行, 可以改为空,则连续输出
 print('hello, world', end='')
 print("hello,world")
 print('hello, world', end='***\n')

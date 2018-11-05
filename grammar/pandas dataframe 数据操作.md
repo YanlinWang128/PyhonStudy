@@ -1,3 +1,16 @@
+# 最快的求表长的属性
+print(df.index)
+
+# dataframe空白值处理
+df1 = df.ffill() # 向前填充数据
+df2 = df.bfill() # 向后填充数据
+### 多行连续空白值 的 处理
+
+
+# dataframe筛选数据后重设索引
+df2.reset_index(drop=True)
+
+
 # dataframe数据筛选
 df2 = df2[(df2['JT66801A'] <= 400) & (df2['JT66801A'] >= 300)]
 

@@ -51,7 +51,7 @@ print(np.median(x))
 print(np.median(y, axis=-1))  # last axis
 
 # 整体标准差
-print(x.std())
+print(x.std()) # numpy 标准差默认有偏估计
 """
 & 与运算: 两位同时为“1”，结果才为“1”，否则为0
 | 或运算: 参加运算的两个对象只要有一个为1，其值为1。
