@@ -1,10 +1,11 @@
-# PyhonStudy
-基础语法
-pandas数据处理
-os 
-datetime
-CSV文件处理
-json文件处理
+# PyhonStudy 技能学习
+
+## 数据处理
+[pandas文档](http://pandas.pydata.org/)
+
+## 语法学习
+[Python OJ](http://www.pythontip.com/coding/code_oj)
+
 
 # Numpy, Matplotlib, Scipy
 [Scipy Lecture Notes](http://www.scipy-lectures.org/)
