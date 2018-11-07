@@ -43,7 +43,7 @@ df.p['xx'] - df.p["xx_1"]
 
 # 删除某列
 df2 = df.drop(['MonthlyIncome'],axis=1)
-
+df.drop(['MonthlyIncome'], inplace = True, axis=1)
 
 # dataframe 更改列名
 df.rename(columns  = {'ID':'id', 'code':'编码'})
