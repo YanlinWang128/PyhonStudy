@@ -8,9 +8,11 @@ import numpy as np
 
 start = clock()
 
-# Numpy 数组
-a = np.array([0, 1, 2, 3])  # 列表 --> Numpy数组
-print(type(a), a)
+# Numpy array数组, Numpy中最核心的结构就是 array数组结构
+# Numpy 要求 np.array 传进来的参数必须是同一种结构的
+
+vector = np.array([0, 1, 2, 3])  # 列表 --> Numpy数组,
+print(type(vector), vector)
 
 a = np.arange(100)  # Numpy 固定元素个数数组, n 个元素, [0, n)
 print(type(a))
@@ -20,7 +22,7 @@ print(type(a))
 a = np.array([0, 1, 2, 3])  # 一维数组
 print(type(a), a.ndim, a.shape, len(a), a.size, a)
 
-b = np.array([[0, 1, 2], [3, 4, 5]])  # 2 x 3 array # 二维数组
+matrix = np.array([[0, 1, 2], [3, 4, 5]])  # 2 x 3 array # 二维数组,矩阵
 print('-----' * 10)
 """
 type(a), a.ndim, a.shape, len(a):  类型, 维度, 形状, 元素个数

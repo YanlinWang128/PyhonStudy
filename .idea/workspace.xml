@@ -6,24 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="19ed2566-c49f-4496-8a6d-6c7052ccf0e9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="E:/ComputerScience/Python/Python-algorithm/数据结构/0算法与算法评价/时间复杂度.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/VISUALIZATION/1. Basic Plotting_plot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/VISUALIZATION/2. bar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/pandas 用例/修改dataframe.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_processing/data_processing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_processing/data_processing_functions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_processing/function_list.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grammar/cumsum().py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/数据处理项目/pandas/8月方差.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/数据处理项目/pandas/9月方差.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Numpy/9. np_random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Numpy/Numpy用例/Numpy 矩阵.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Numpy/Numpy用例/numpy_基本用法.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pandas/pandas 用例/时间序列分析_日期为索引.py" />
       <change type="MODIFICATION" beforePath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" afterPath="E:/ComputerScience/Python/Python-algorithm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PyhonStudy.iml" afterPath="$PROJECT_DIR$/.idea/PyhonStudy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pandas/TIME DELTAS/2. Operations.py" afterPath="$PROJECT_DIR$/Pandas/TIME DELTAS/2. Operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Numpy/0.Numpy属性.py" afterPath="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Numpy/1Numpy数组.py" afterPath="$PROJECT_DIR$/Numpy/1Numpy数组.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Numpy/7.Numpy shape.py" afterPath="$PROJECT_DIR$/Numpy/7.Numpy shape.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py" afterPath="$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grammar/Python_glob 选取同类型文件.py" afterPath="$PROJECT_DIR$/grammar/Python_glob 选取同类型文件.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grammar/pandas dataframe 数据操作.md" afterPath="$PROJECT_DIR$/grammar/pandas dataframe 数据操作.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_processing/data_processing.py" afterPath="$PROJECT_DIR$/data_processing/data_processing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/测试.py" afterPath="$PROJECT_DIR$/测试.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/英语好好学.md" afterPath="$PROJECT_DIR$/英语好好学.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/问题小记.md" afterPath="$PROJECT_DIR$/问题小记.md" />
       <change type="MOVED" beforePath="E:/ComputerScience/Python/Python-algorithm/基础算法题.py" afterPath="E:/ComputerScience/Python/Python-algorithm/算法题/0基础算法题.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/错误处理.md" afterPath="$PROJECT_DIR$/问题小记.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +34,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PyhonStudy$plot_liu.coverage" NAME="plot_liu Coverage Results" MODIFIED="1540777854193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$_.coverage" NAME="_多文件合并 Coverage Results" MODIFIED="1541385041615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$Numpy_.coverage" NAME="Numpy 矩阵 Coverage Results" MODIFIED="1541748316363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy/Numpy用例" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$_.coverage" NAME="时间序列分析_日期为索引 Coverage Results" MODIFIED="1541603402719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/pandas 用例" />
     <SUITE FILE_PATH="coverage/PyhonStudy$data_filtering.coverage" NAME="data_filtering Coverage Results" MODIFIED="1541134663745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$3__Generating_Ranges_of_Timestamps.coverage" NAME="3. Generating Ranges of Timestamps Coverage Results" MODIFIED="1541426350928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY" />
     <SUITE FILE_PATH="coverage/PyhonStudy$___.coverage" NAME="方波测试非增量_单输入_基于预测值_可变参量 Coverage Results" MODIFIED="1541158077091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
@@ -44,6 +45,7 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$2__Converting_to_Timestamps.coverage" NAME="2. Converting to Timestamps Coverage Results" MODIFIED="1541425854738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1__Timestamps_Time_Spans.coverage" NAME="1. Timestamps_Time Spans Coverage Results" MODIFIED="1541407160510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY" />
     <SUITE FILE_PATH="coverage/PyhonStudy$3__pandas_if_then.coverage" NAME="3. pandas if_then Coverage Results" MODIFIED="1541311443734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$9__np_random.coverage" NAME="9. np_random Coverage Results" MODIFIED="1541739741575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$__y__.coverage" NAME="方波测试_非增量_y预测值计算_基于原始值_单输入 Coverage Results" MODIFIED="1541126606506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102" />
     <SUITE FILE_PATH="coverage/PyhonStudy$2__bar.coverage" NAME="2. bar Coverage Results" MODIFIED="1541469243133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/VISUALIZATION" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1__10minutes_to_pandas.coverage" NAME="1. 10minutes_to_pandas Coverage Results" MODIFIED="1541084165465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
@@ -62,11 +64,14 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$8__WORKING_WITH_TEXT_DATA.coverage" NAME="8. WORKING WITH TEXT DATA Coverage Results" MODIFIED="1541400342254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/essential functionality" />
     <SUITE FILE_PATH="coverage/PyhonStudy$0__Basic.coverage" NAME="0. Basic Coverage Results" MODIFIED="1541406880369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY" />
     <SUITE FILE_PATH="coverage/PyhonStudy$y_.coverage" NAME="y预测_基于原始数据值 Coverage Results" MODIFIED="1541125536458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$1108.coverage" NAME="线性回归测试1108 Coverage Results" MODIFIED="1541660998588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ComputerScience/math/数学概念对应Python实现" />
     <SUITE FILE_PATH="coverage/PyhonStudy$y_y.coverage" NAME="y预测值计算_y增量 Coverage Results" MODIFIED="1540781448329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$0_Numpy.coverage" NAME="0.Numpy属性 Coverage Results" MODIFIED="1541080082806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1541518864858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1541587133798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$0_Numpy.coverage" NAME="0.Numpy属性 Coverage Results" MODIFIED="1541732751185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$dataframe.coverage" NAME="创建dataframe Coverage Results" MODIFIED="1541495659894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/pandas 用例" />
     <SUITE FILE_PATH="coverage/PyhonStudy$8300.coverage" NAME="筛选8月功率300以上的 Coverage Results" MODIFIED="1540274567813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/pandas/第二阶段分析" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$6_.coverage" NAME="6.基本高级运算 Coverage Results" MODIFIED="1541732386980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$1107.coverage" NAME="多元线性回归测试1107 Coverage Results" MODIFIED="1541592589677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
     <SUITE FILE_PATH="coverage/PyhonStudy$numpy_test.coverage" NAME="numpy_test Coverage Results" MODIFIED="1539594960773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$Python.coverage" NAME="Python高阶函数 Coverage Results" MODIFIED="1540387577964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$Python_glob_.coverage" NAME="Python_glob 选取同类型文件 Coverage Results" MODIFIED="1541470720278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
@@ -85,6 +90,7 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$string_.coverage" NAME="string_ Coverage Results" MODIFIED="1540391959331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
     <SUITE FILE_PATH="coverage/PyhonStudy$24_y_1000.coverage" NAME="24阶_y预测值计算_1000条 Coverage Results" MODIFIED="1540883643584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$4_Numpy_.coverage" NAME="4.Numpy 索引切片拷贝 Coverage Results" MODIFIED="1541071697087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$numpy_.coverage" NAME="numpy_基本用法 Coverage Results" MODIFIED="1541748322832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy/Numpy用例" />
     <SUITE FILE_PATH="coverage/PyhonStudy$3_.coverage" NAME="3.基本的数据可视化 Coverage Results" MODIFIED="1541071544140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta_y.coverage" NAME="整月theta_y增量 Coverage Results" MODIFIED="1540800927589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$mat_test.coverage" NAME="mat_test Coverage Results" MODIFIED="1540882630055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sicpy" />
@@ -95,14 +101,16 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$theta_.coverage" NAME="整月theta_非增量 Coverage Results" MODIFIED="1540887483727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据辨识项目" />
     <SUITE FILE_PATH="coverage/PyhonStudy$4_pandas.coverage" NAME="4,pandas修改数据 Coverage Results" MODIFIED="1541316743017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta____1_.coverage" NAME="整月theta_非增量_遗忘因子 (1) Coverage Results" MODIFIED="1540887317508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据辨识项目" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$models.coverage" NAME="models Coverage Results" MODIFIED="1541661068664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ComputerScience/math/数学概念对应Python实现" />
     <SUITE FILE_PATH="coverage/PyhonStudy$theta__.coverage" NAME="整月theta_非增量_遗忘因子 Coverage Results" MODIFIED="1540887220682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_差分数据辨识项目" />
     <SUITE FILE_PATH="coverage/PyhonStudy$lena.coverage" NAME="lena Coverage Results" MODIFIED="1540995688630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy_cookbook" />
     <SUITE FILE_PATH="coverage/PyhonStudy$4__Descriptive_statistics.coverage" NAME="4. Descriptive statistics Coverage Results" MODIFIED="1541397806144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/essential functionality" />
     <SUITE FILE_PATH="coverage/PyhonStudy$00_series.coverage" NAME="00.series Coverage Results" MODIFIED="1541390518947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/PyhonStudy$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1540129751709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$7_Numpy_shape.coverage" NAME="7.Numpy shape Coverage Results" MODIFIED="1541079894793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$7_Numpy_shape.coverage" NAME="7.Numpy shape Coverage Results" MODIFIED="1541733476910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$__y.coverage" NAME="方波测试_非增量_y预测值计算 Coverage Results" MODIFIED="1541126089350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1__Parsing.coverage" NAME="1. Parsing Coverage Results" MODIFIED="1541426752844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/TIME DELTAS" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$functions.coverage" NAME="functions Coverage Results" MODIFIED="1541661116705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ComputerScience/math/数学概念对应Python实现" />
     <SUITE FILE_PATH="coverage/PyhonStudy$mat_to_csv.coverage" NAME="mat_to_csv Coverage Results" MODIFIED="1541126355093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sicpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$1Numpy.coverage" NAME="1Numpy数组 Coverage Results" MODIFIED="1541080076763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numpy" />
     <SUITE FILE_PATH="coverage/PyhonStudy$9_pandasdataframe.coverage" NAME="9.pandas合并dataframe Coverage Results" MODIFIED="1541383083071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
@@ -110,49 +118,111 @@
     <SUITE FILE_PATH="coverage/PyhonStudy$3D_Axes3D.coverage" NAME="3D图_Axes3D Coverage Results" MODIFIED="1539832503693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/PyhonStudy$2__Operations.coverage" NAME="2. Operations Coverage Results" MODIFIED="1541427104832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas/TIME DELTAS" />
     <SUITE FILE_PATH="coverage/PyhonStudy$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1539784710737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/PyhonStudy$.coverage" NAME="测试 Coverage Results" MODIFIED="1541503752045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$Bayesian_Ridge_Regression.coverage" NAME="Bayesian Ridge Regression Coverage Results" MODIFIED="1541602149135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$.coverage" NAME="测试 Coverage Results" MODIFIED="1541731710100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyhonStudy$aa.coverage" NAME="aa Coverage Results" MODIFIED="1539658650702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherFile" />
+    <SUITE FILE_PATH="coverage/PyhonStudy$__1108.coverage" NAME="多元回归分析_真实数据_1108 Coverage Results" MODIFIED="1541661163641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ComputerScience/math/数学概念对应Python实现" />
     <SUITE FILE_PATH="coverage/PyhonStudy$print_input_format.coverage" NAME="print_input_format Coverage Results" MODIFIED="1540809934124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="data_filtering.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py">
+      <file leaf-file-name="numpy_基本用法.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Numpy/Numpy用例/numpy_基本用法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Numpy 矩阵.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/Numpy用例/Numpy 矩阵.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.Numpy 索引切片拷贝.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-192">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.基本的数据可视化.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/3.基本的数据可视化.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-768">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.Numpy基本数据类型.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-457">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9. np_random.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/9. np_random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.Numpy计算_元素智能.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2016">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.基本高级运算.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/6.基本高级运算.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-745">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.数组排序.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/8.数组排序.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.Numpy shape.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numpy/7.Numpy shape.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="e#5039#5714#0" expanded="false" />
-                <element signature="e#6525#7005#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_processing_functions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_processing/data_processing_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2464">
-              <caret line="87" column="26" lean-forward="false" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-              <folding>
-                <element signature="e#127#149#0" expanded="true" />
-                <element signature="e#362#740#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_processing.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_processing/data_processing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-              <folding>
-                <element signature="e#117#139#0" expanded="true" />
-                <element signature="e#528#2073#0" expanded="false" />
-                <element signature="e#2129#2442#0" expanded="false" />
-              </folding>
+              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,31 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pandas/01dataframe.py" />
-        <option value="$PROJECT_DIR$/Pandas/000.dataframe.py" />
-        <option value="$PROJECT_DIR$/Pandas/000dataframe.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/Head and Tail.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/1. Head and Tail.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/2. Attributes and the raw ndarray(s).py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/3..py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/3.Flexible binary operations .py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/3. Flexible binary operations .py" />
-        <option value="$PROJECT_DIR$/Numpy/6.基本高级运算.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/5. Function application.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/6. Dropping.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/7. datetime.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/8. WORKING WITH TEXT DATA.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/9.  Indexing and Selecting Data.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/10. Selection By Position.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/11. Selection By Callable.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/12. Boolean indexing.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/9. Indexing and Selecting Data.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/13. Set_Reset Index.py" />
-        <option value="$PROJECT_DIR$/Pandas/essential functionality/4. Descriptive statistics.py" />
-        <option value="$PROJECT_DIR$/Pandas/MISSING DATA/Missing data basics.py" />
-        <option value="$PROJECT_DIR$/Pandas/MISSING DATA/0. Missing data basics.py" />
-        <option value="$PROJECT_DIR$/Pandas/MISSING DATA/1. Cleaning_filling missing data.py" />
-        <option value="$PROJECT_DIR$/Pandas/MISSING DATA/4. count Missing.py" />
         <option value="$PROJECT_DIR$/Pandas/MISSING DATA/2, Drop Missing.py" />
         <option value="$PROJECT_DIR$/Pandas/MERGE_JOIN AND CONCATENATE/0. Concatenating objects.py" />
         <option value="$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY/0. Basic.py" />
@@ -223,14 +268,39 @@
         <option value="$PROJECT_DIR$/data_processing/function_list.md" />
         <option value="$PROJECT_DIR$/错误处理.md" />
         <option value="$PROJECT_DIR$/Pandas/pandas cookbook/5.pandas 新增列.py" />
-        <option value="$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py" />
         <option value="$PROJECT_DIR$/grammar/pandas dataframe 数据操作.md" />
         <option value="$PROJECT_DIR$/Pandas/pandas 用例/修改dataframe.py" />
-        <option value="$PROJECT_DIR$/测试.py" />
-        <option value="$PROJECT_DIR$/问题小记.md" />
         <option value="$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py" />
-        <option value="$PROJECT_DIR$/data_processing/data_processing_functions.py" />
+        <option value="$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py" />
         <option value="$PROJECT_DIR$/data_processing/data_processing.py" />
+        <option value="$PROJECT_DIR$/data_processing/线性回归测试1107.py" />
+        <option value="$PROJECT_DIR$/data_processing/多元线性回归测试1107.py" />
+        <option value="E:/ComputerScience/math/数学理论/机器学习误差分析.md" />
+        <option value="$PROJECT_DIR$/data_processing/逻辑回归.py" />
+        <option value="E:/ComputerScience/math/数学理论/2. SVM.md" />
+        <option value="$PROJECT_DIR$/data_processing/Bayesian Ridge Regression.py" />
+        <option value="$PROJECT_DIR$/Pandas/pandas 用例/时间序列分析_日期为索引.py" />
+        <option value="$PROJECT_DIR$/data_processing/models.py" />
+        <option value="$PROJECT_DIR$/data_processing/多元线性回归1107.py" />
+        <option value="$PROJECT_DIR$/data_processing/线性回归测试1108.py" />
+        <option value="E:/ComputerScience/math/数学理论/1. 回归分析.md" />
+        <option value="E:/ComputerScience/math/数学概念对应Python实现/2. 回归分析_线性回归.py" />
+        <option value="$PROJECT_DIR$/data_processing/data_processing_functions.py" />
+        <option value="E:/ComputerScience/math/数学概念对应Python实现/function_detail.py" />
+        <option value="E:/ComputerScience/math/数学概念对应Python实现/多元回归分析_真实数据_1108.py" />
+        <option value="E:/ComputerScience/math/数学概念对应Python实现/functions.py" />
+        <option value="E:/ComputerScience/math/数学理论/机器学习.md" />
+        <option value="$PROJECT_DIR$/英语好好学.md" />
+        <option value="$PROJECT_DIR$/测试.py" />
+        <option value="$PROJECT_DIR$/Numpy/0.Numpy属性.py" />
+        <option value="$PROJECT_DIR$/问题小记.md" />
+        <option value="$PROJECT_DIR$/Numpy/1Numpy数组.py" />
+        <option value="$PROJECT_DIR$/Numpy/6.基本高级运算.py" />
+        <option value="$PROJECT_DIR$/Numpy/7.Numpy shape.py" />
+        <option value="$PROJECT_DIR$/Numpy/9. np_random.py" />
+        <option value="$PROJECT_DIR$/Numpy/Numpy用例/numpy_矩阵.py" />
+        <option value="$PROJECT_DIR$/Numpy/Numpy用例/Numpy 矩阵.py" />
+        <option value="$PROJECT_DIR$/Numpy/Numpy用例/numpy_基本用法.py" />
       </list>
     </option>
   </component>
@@ -241,10 +311,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1609" />
-    <option name="y" value="62" />
-    <option name="width" value="1618" />
-    <option name="height" value="1248" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -264,8 +334,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,11 +358,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="数据处理项目" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第二阶段分析" />
+              <option name="myItemId" value="Numpy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,71 +372,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="数据处理项目" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
+              <option name="myItemId" value="Numpy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="数据处理项目" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pandas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pandas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pandas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pandas 用例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyhonStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_processing" />
+              <option name="myItemId" value="Numpy用例" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,24 +386,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="E:/ComputerScience/math" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ComputerScience\math\picture" />
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2\1102" />
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2" />
       <recent name="E:\Pythoncode\PyhonStudy\数据分析_差分数据辨识项目" />
       <recent name="E:\Pythoncode\PyhonStudy\sicpy" />
-      <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\numpy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ComputerScience\math\数学概念对应Python实现" />
       <recent name="E:\Pythoncode\PyhonStudy\Pandas" />
       <recent name="E:\Pythoncode\PyhonStudy\Pandas\pandas 用例" />
       <recent name="E:\Pythoncode\PyhonStudy\Pandas\pandas cookbook" />
       <recent name="E:\Pythoncode\PyhonStudy\数据处理项目\第二阶段分析\差分方程2\1102" />
-      <recent name="E:\Pythoncode\PyhonStudy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,97 +418,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_processing">
-    <configuration default="false" name="Python_glob 选取同类型文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.numpy_基本用法">
+    <configuration default="false" name="numpy_矩阵" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grammar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy/Numpy用例" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar/Python_glob 选取同类型文件.py" />
+      <option name="SCRIPT_NAME" value="E:\Pythoncode\PyhonStudy\Numpy\Numpy用例\numpy_基本用法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="data_processing_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="7.Numpy shape" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/data_processing_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/7.Numpy shape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="data_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="9. np_random" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/data_processing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/9. np_random.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="创建dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Numpy 矩阵" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas/pandas 用例" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy/Numpy用例" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/Numpy用例/Numpy 矩阵.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="numpy_基本用法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy/Numpy用例" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyhonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/Numpy用例/numpy_基本用法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -657,19 +663,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Python_glob 选取同类型文件" />
-      <item index="1" class="java.lang.String" itemvalue="Python.data_processing_functions" />
-      <item index="2" class="java.lang.String" itemvalue="Python.data_processing" />
-      <item index="3" class="java.lang.String" itemvalue="Python.创建dataframe" />
-      <item index="4" class="java.lang.String" itemvalue="Python.测试" />
+      <item index="0" class="java.lang.String" itemvalue="Python.numpy_矩阵" />
+      <item index="1" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
+      <item index="2" class="java.lang.String" itemvalue="Python.9. np_random" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Numpy 矩阵" />
+      <item index="4" class="java.lang.String" itemvalue="Python.numpy_基本用法" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data_processing" />
-        <item index="1" class="java.lang.String" itemvalue="Python.测试" />
-        <item index="2" class="java.lang.String" itemvalue="Python.创建dataframe" />
-        <item index="3" class="java.lang.String" itemvalue="Python.data_processing_functions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Python_glob 选取同类型文件" />
+        <item index="0" class="java.lang.String" itemvalue="Python.numpy_基本用法" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Numpy 矩阵" />
+        <item index="2" class="java.lang.String" itemvalue="Python.numpy_矩阵" />
+        <item index="3" class="java.lang.String" itemvalue="Python.9. np_random" />
+        <item index="4" class="java.lang.String" itemvalue="Python.7.Numpy shape" />
       </list>
     </recent_temporary>
   </component>
@@ -710,17 +716,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1609" y="62" width="1618" height="1248" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12435233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29504234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17489271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36806342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19951633" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2414163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17489271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -729,7 +737,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -741,385 +748,421 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pandas/MISSING DATA/0. Missing data basics.py">
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="-192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试非增量_一阶.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="181" column="35" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="183" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/方波测试_非增量_y预测值计算_基于预测值_四输入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2304">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/MISSING DATA/2, Drop Missing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="-157">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/MISSING DATA/4. count Missing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/MISSING DATA/1. Cleaning_filling missing data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/MERGE_JOIN AND CONCATENATE/0. Concatenating objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY/1. Timestamps_Time Spans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY/2. Converting to Timestamps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY/3. Generating Ranges of Timestamps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME SERIES_ DATE FUNCTIONALITY/0. Basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME DELTAS/0. basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME DELTAS/1. Parsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TIME DELTAS/2. Operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据辨识项目/整月theta_非增量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/cumsum().py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/VISUALIZATION/1. Basic Plotting_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/VISUALIZATION/2. bar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas cookbook/000dataframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/Python_glob 选取同类型文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sicpy/mat_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sicpy/mat_to_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming_specification.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="59" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/数据预处理/Myfunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="17" selection-end-column="24" />
-        </state>
+    <entry file="file://E:/ComputerScience/math/picture/MAE.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据筛选.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/文件夹空白值检测.py">
+    <entry file="file://$PROJECT_DIR$/Pandas/pandas 用例/时间序列分析_日期为索引.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="50" />
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/9月方差.csv" />
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/csv_data_filtering.py">
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/Bayesian Ridge Regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="-1057">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/csv操作.py">
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/逻辑回归.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="777">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas cookbook/0.pandas 属性.py">
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于原始值_参数扩展.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-3168">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/1功率筛选.py">
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/方波测试非增量_单输入_基于预测值_可变参量.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="52" />
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/CSV_json process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_processing/function_list.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="192">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/pandas dataframe 数据操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
-            <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas cookbook/10.pandas 存取csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas 用例/_多文件合并.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas cookbook/4,pandas修改数据.py">
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/1102/单输入预测对比_基于预测值.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-768">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas cookbook/3. pandas if_then修改数据.py">
+    <entry file="file://$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas cookbook/5.pandas 新增列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas 用例/修改dataframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/英语好好学.md">
+    <entry file="file://E:/ComputerScience/math/数学理论/2. SVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="96">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas 用例/创建dataframe.py">
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/a.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/2. 回归分析_线性回归.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="1088">
+          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_processing/data_processing_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_processing/data_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1096">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/1. 协方差与相关系数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/0. 偏度_峰度_基本统计量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/线性回归测试1108.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/24阶_y预测值计算_1000条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/差分方程2/y预测值计算_y增量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/多元线性回归1107.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#112#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/function_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#117#139#0" expanded="true" />
+            <element signature="e#366#611#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3904">
+          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="e#112#134#0" expanded="true" />
+            <element signature="e#479#706#0" expanded="false" />
+            <element signature="e#1516#1938#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学概念对应Python实现/多元回归分析_真实数据_1108.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学理论/0. 基本概念.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="32">
+            <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学理论/1. 回归分析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="512">
+            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学理论/机器学习误差分析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ComputerScience/math/数学理论/机器学习.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/英语好好学.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-160">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/测试.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/core/reshape/concat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        <state relative-caret-position="311">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="e#105#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/问题小记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <first_editor relative-caret-position="96">
+            <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/sort()_sorted()_字符串序_数字序.py">
+    <entry file="file://$PROJECT_DIR$/Numpy/0.Numpy属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#111#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/1Numpy数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/3.基本的数据可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/5.Numpy计算_元素智能.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2016">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/4.Numpy 索引切片拷贝.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/7.Numpy shape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/合并CSV.py">
+    <entry file="file://$PROJECT_DIR$/Numpy/8.数组排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="-105">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/第二阶段分析/数据预处理.py">
+    <entry file="file://$PROJECT_DIR$/Numpy/6.基本高级运算.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7872">
-          <caret line="288" column="47" lean-forward="true" selection-start-line="288" selection-start-column="47" selection-end-line="288" selection-end-column="47" />
+        <state relative-caret-position="-745">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_processing/data_processing_functions.py">
+    <entry file="file://$PROJECT_DIR$/Numpy/2.Numpy基本数据类型.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="87" column="26" lean-forward="false" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding>
-            <element signature="e#127#149#0" expanded="true" />
-            <element signature="e#362#740#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-457">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理项目/pandas/data_filtering.py">
+    <entry file="file://$PROJECT_DIR$/Numpy/9. np_random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#5039#5714#0" expanded="false" />
-            <element signature="e#6525#7005#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_processing/data_processing.py">
+    <entry file="file://$PROJECT_DIR$/Numpy/Numpy用例/Numpy 矩阵.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="e#117#139#0" expanded="true" />
-            <element signature="e#528#2073#0" expanded="false" />
-            <element signature="e#2129#2442#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="384">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy/Numpy用例/numpy_基本用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

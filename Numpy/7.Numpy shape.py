@@ -8,9 +8,9 @@ import numpy as np
 
 start = clock()
 
-a = np.arange(0, 40, 10)
+a = np.arange(0, 40, 10) # [0, 40) step = 10
 b = np.array([0, 1, 2])
-print(a.shape)  #
+print(a.shape, a, sep='\n', end='\n-----\n')  #
 
 # 添加维度  维度常用技巧,添加一维, 用于加法运算
 a = a[:, np.newaxis]  # adds a new axis -> 2D array

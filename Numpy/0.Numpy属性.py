@@ -9,7 +9,7 @@ import numpy as np
 start = clock()
 
 # Numpy 包含高级代数函数
-
+print(help(np.genfromtxt))
 
 a = np.array([[0, 1, 2], [3, 4, 5]])
 print(type(a), a.ndim, a.shape, len(a), a.size, a)

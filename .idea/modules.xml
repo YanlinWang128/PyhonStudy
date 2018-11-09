@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyhonStudy.iml" filepath="$PROJECT_DIR$/.idea/PyhonStudy.iml" />
       <module fileurl="file://E:/ComputerScience/Python/Python-algorithm/.idea/Python-algorithm.iml" filepath="E:/ComputerScience/Python/Python-algorithm/.idea/Python-algorithm.iml" />
+      <module fileurl="file://E:/ComputerScience/math/.idea/math.iml" filepath="E:/ComputerScience/math/.idea/math.iml" />
     </modules>
   </component>
 </project>
