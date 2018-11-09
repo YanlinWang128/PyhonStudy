@@ -36,15 +36,16 @@ def columns_replace():
 
 
 if __name__ == '__main__':
+    print(help(print))
     # num_mapping = dict()
     # print(type(num_mapping))
-    path = r"F:\HistoryData\08new"
-    pattern = '\*_p*.csv'
-
-    files = sorted(glob(path + pattern), key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
-    # path = r'F:\BAT\*.*'
-    # # pattern =
-    # files = sorted(glob(path))
-    for i in files:
-
-     print(os.path.abspath(i))
+    # path = r"F:\HistoryData\08new"
+    # pattern = '\*_p*.csv'
+    #
+    # files = sorted(glob(path + pattern), key=lambda items: int(re.findall(r'p(\d+).csv', items)[0]))
+    # # path = r'F:\BAT\*.*'
+    # # # pattern =
+    # # files = sorted(glob(path))
+    # for i in files:
+    #
+    #     print(os.path.abspath(i))
